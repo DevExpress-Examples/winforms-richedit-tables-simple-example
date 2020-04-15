@@ -1,19 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
-using DevExpress.Skins;
-using DevExpress.LookAndFeel;
-using DevExpress.UserSkins;
-using DevExpress.XtraBars.Helpers;
-using DevExpress.XtraBars;
-using DevExpress.XtraBars.Ribbon;
+﻿using System.Drawing;
 using DevExpress.XtraRichEdit.API.Native;
-
+using DevExpress.Office.Utils;
+using DevExpress.XtraBars.Ribbon;
+using System;
 
 namespace TablesSimpleExample
 {
@@ -22,8 +11,6 @@ namespace TablesSimpleExample
         public Form1()
         {
             InitializeComponent();
-            InitializeRichEditControl();
-            ribbonControl1.SelectedPage = homeRibbonPage1;
 
             CreateTable(richEditControl1.Document);
             SetColumnWidth(richEditControl1.Document.Tables[0]);
@@ -32,10 +19,8 @@ namespace TablesSimpleExample
             FormatData(richEditControl1.Document);
             CustomizeTable(richEditControl1.Document);
             TableStyle(richEditControl1.Document);
+            //WrapText(richEditControl1.Document);
             //DeleteElements(richEditControl1.Document);
-        }
-        void InitializeRichEditControl()
-        {
         }
         private void CreateTable(Document document)
         {
@@ -58,21 +43,20 @@ namespace TablesSimpleExample
             #region #ResizeTable
             //Set the width of the first column
             table.Rows[0].FirstCell.PreferredWidthType = WidthType.Fixed;
-            table.Rows[0].FirstCell.PreferredWidth = DevExpress.Office.Utils.Units.InchesToDocumentsF(0.8f);
+            table.Rows[0].FirstCell.PreferredWidth = Units.InchesToDocumentsF(0.8f);
 
 
             //Set the second column width and cell height
             table[0, 1].PreferredWidthType = WidthType.Fixed;
-            table[0, 1].PreferredWidth = DevExpress.Office.Utils.Units.InchesToDocumentsF(5f);
+            table[0, 1].PreferredWidth = Units.InchesToDocumentsF(5f);
             table[0, 1].HeightType = HeightType.Exact;
-            table[0, 1].Height = DevExpress.Office.Utils.Units.InchesToDocumentsF(0.5f);
+            table[0, 1].Height = Units.InchesToDocumentsF(0.5f);
 
             //Set the third column width 
             table.Rows[0].LastCell.PreferredWidthType = WidthType.Fixed;
-            table.Rows[0].LastCell.PreferredWidth = DevExpress.Office.Utils.Units.InchesToDocumentsF(0.8f);
+            table.Rows[0].LastCell.PreferredWidth = Units.InchesToDocumentsF(0.8f);
             #endregion #ResizeTable
         }
-
 
         private void MergeAndSplit(Document document)
         {
@@ -170,12 +154,14 @@ namespace TablesSimpleExample
             //Create a new table style
             TableStyle tStyleMain = document.TableStyles.CreateNew();
 
-            //Specify style options       
-            tStyleMain.TableBorders.InsideHorizontalBorder.LineStyle = TableBorderLineStyle.Single;
-            tStyleMain.TableBorders.InsideHorizontalBorder.LineColor = Color.White;
+            //Specify style options
+            TableBorder insideHorizontalBorder = tStyleMain.TableBorders.InsideHorizontalBorder;
+            insideHorizontalBorder.LineStyle = TableBorderLineStyle.Single;
+            insideHorizontalBorder.LineColor = Color.White;
 
-            tStyleMain.TableBorders.InsideVerticalBorder.LineStyle = TableBorderLineStyle.Single;
-            tStyleMain.TableBorders.InsideVerticalBorder.LineColor = Color.White;
+            TableBorder insideVerticalBorder = tStyleMain.TableBorders.InsideVerticalBorder;
+            insideVerticalBorder.LineStyle = TableBorderLineStyle.Single;
+            insideVerticalBorder.LineColor = Color.White;
             tStyleMain.CellBackgroundColor = Color.FromArgb(227, 238, 220);
             tStyleMain.Name = "MyTableStyle";
 
@@ -236,6 +222,29 @@ namespace TablesSimpleExample
         }
         #endregion #CustomizeTable
 
+        private void WrapText(Document document)
+        {
+            Table table = document.Tables[0];
+            table.BeginUpdate();
+            //Wrap text around the table
+            table.TextWrappingType = TableTextWrappingType.Around;
+
+            //Specify vertical alignment:
+            table.RelativeVerticalPosition = TableRelativeVerticalPosition.Paragraph;
+            table.VerticalAlignment = TableVerticalAlignment.None;
+            table.OffsetYRelative = Units.InchesToDocumentsF(2f);
+
+            //Specify horizontal alignment:
+            table.RelativeHorizontalPosition = TableRelativeHorizontalPosition.Margin;
+            table.HorizontalAlignment = TableHorizontalAlignment.Center;
+
+            //Set distance between the text and the table:
+            table.MarginBottom = Units.InchesToDocumentsF(0.3f);
+            table.MarginLeft = Units.InchesToDocumentsF(0.3f);
+            table.MarginTop = Units.InchesToDocumentsF(0.3f);
+            table.MarginRight = Units.InchesToDocumentsF(0.3f);
+            table.EndUpdate();
+        }
 
         #region #DeleteColumns
         //Declare a method that deletes the second cell in every table row
