@@ -19,8 +19,24 @@ Namespace TablesSimpleExample
 			CustomizeTable(richEditControl1.Document)
 			TableStyle(richEditControl1.Document)
 			'WrapText(richEditControl1.Document);
+			AdjustTableRows(richEditControl1.Document)
 			'DeleteElements(richEditControl1.Document);
 		End Sub
+
+		Private Sub AdjustTableRows(ByVal document As Document)
+			Dim table As Table = document.Tables(0)
+			table.BeginUpdate()
+
+			'Repeat first three rows as header:
+			table.Rows(0).RepeatAsHeaderRow = True
+			table.Rows(1).RepeatAsHeaderRow = True
+			table.Rows(2).RepeatAsHeaderRow = True
+
+			'Break last row across pages:
+			table.LastRow.BreakAcrossPages = True
+			table.EndUpdate()
+		End Sub
+
 		Private Sub CreateTable(ByVal document As Document)
 '			#Region "#CreateTable"
 			'Create a new table and specify its layout type
@@ -184,11 +200,9 @@ Namespace TablesSimpleExample
 
 			'Call the ChangeCellBorderColor method for every cell in the first two rows
 			For i As Integer = 0 To 1
-				Dim j As Integer = 0
-				Do While j < table.Rows(i).Cells.Count
+				For j As Integer = 0 To (table.Rows(i).Cells.Count) - 1
 					ChangeCellBorderColor(table(i, j))
-					j += 1
-				Loop
+				Next j
 			Next i
 '			#End Region ' #FirstRowTransparency
 

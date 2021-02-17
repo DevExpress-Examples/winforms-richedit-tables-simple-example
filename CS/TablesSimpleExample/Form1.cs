@@ -20,8 +20,25 @@ namespace TablesSimpleExample
             CustomizeTable(richEditControl1.Document);
             TableStyle(richEditControl1.Document);
             //WrapText(richEditControl1.Document);
+            AdjustTableRows(richEditControl1.Document);
             //DeleteElements(richEditControl1.Document);
         }
+
+        private void AdjustTableRows(Document document)
+        {
+            Table table = document.Tables[0];
+            table.BeginUpdate();
+
+            //Repeat first three rows as header:
+            table.Rows[0].RepeatAsHeaderRow = true;
+            table.Rows[1].RepeatAsHeaderRow = true;
+            table.Rows[2].RepeatAsHeaderRow = true;
+
+            //Break last row across pages:
+            table.LastRow.BreakAcrossPages = true;
+            table.EndUpdate();
+        }
+
         private void CreateTable(Document document)
         {
             #region #CreateTable
