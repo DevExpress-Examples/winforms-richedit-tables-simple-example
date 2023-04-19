@@ -19,7 +19,7 @@ namespace TablesSimpleExample
             FormatData(richEditControl1.Document);
             CustomizeTable(richEditControl1.Document);
             TableStyle(richEditControl1.Document);
-            //WrapText(richEditControl1.Document);
+            WrapText(richEditControl1.Document);
             AdjustTableRows(richEditControl1.Document);
             //DeleteElements(richEditControl1.Document);
         }
@@ -29,12 +29,12 @@ namespace TablesSimpleExample
             Table table = document.Tables[0];
             table.BeginUpdate();
 
-            //Repeat first three rows as header:
+            // Repeat first three rows as header:
             table.Rows[0].RepeatAsHeaderRow = true;
             table.Rows[1].RepeatAsHeaderRow = true;
             table.Rows[2].RepeatAsHeaderRow = true;
 
-            //Break last row across pages:
+            // Break last row across pages:
             table.LastRow.BreakAcrossPages = true;
             table.EndUpdate();
         }
@@ -92,19 +92,19 @@ namespace TablesSimpleExample
         }
         private void FillData(Document document)
         {
-            #region #DataInserting
+            #region #InsertData
             Table table = document.Tables[0];
 
-            //Insert the header data
+            // Insert header data
             document.InsertSingleLineText(table.Rows[0].Cells[1].Range.Start, "Active Customers");
             document.InsertSingleLineText(table[2, 0].Range.Start, "Photo");
             document.InsertSingleLineText(table[2, 1].Range.Start, "Customer Info");
             document.InsertSingleLineText(table[2, 2].Range.Start, "Rentals");
 
-            //Insert the customer photo
+            // Insert the customer photo
             document.Images.Insert(table[3, 0].Range.Start, DocumentImageSource.FromFile("photo.png"));
 
-            //Insert the customer info
+            // Insert the customer info
             document.InsertText(table[3, 1].Range.Start, "Ryan Anita W");
             document.InsertText(table[3, 2].Range.Start, "Intermediate");
             document.InsertText(table[4, 1].Range.Start, "3/28/1984");
@@ -114,7 +114,7 @@ namespace TablesSimpleExample
 
             document.InsertSingleLineText(table[3, 3].Range.Start, "18");
 
-            #endregion #DataInserting
+            #endregion #InsertData
         }
         private void FormatData(Document document)
         {
@@ -246,16 +246,16 @@ namespace TablesSimpleExample
             //Wrap text around the table
             table.TextWrappingType = TableTextWrappingType.Around;
 
-            //Specify vertical alignment:
+            // Specify vertical alignment:
             table.RelativeVerticalPosition = TableRelativeVerticalPosition.Paragraph;
             table.VerticalAlignment = TableVerticalAlignment.None;
             table.OffsetYRelative = Units.InchesToDocumentsF(2f);
 
-            //Specify horizontal alignment:
+            // Specify horizontal alignment:
             table.RelativeHorizontalPosition = TableRelativeHorizontalPosition.Margin;
             table.HorizontalAlignment = TableHorizontalAlignment.Center;
 
-            //Set distance between the text and the table:
+            // Set distance between the text and the table:
             table.MarginBottom = Units.InchesToDocumentsF(0.3f);
             table.MarginLeft = Units.InchesToDocumentsF(0.3f);
             table.MarginTop = Units.InchesToDocumentsF(0.3f);
@@ -264,7 +264,7 @@ namespace TablesSimpleExample
         }
 
         #region #DeleteColumns
-        //Declare a method that deletes the second cell in every table row
+        // Declare a method that deletes the second cell in every table row
         public static void DeleteCells(TableRow row, int i)
         {
             row.Cells[1].Delete();
@@ -276,19 +276,19 @@ namespace TablesSimpleExample
             Table tbl = document.Tables[0];
             tbl.BeginUpdate();
 
-            //Delete a cell
+            // Delete a cell
             tbl.Cell(1, 1).Delete();
 
-            //Delete a row
+            // Delete a row
             tbl.Rows[0].Delete();
             tbl.EndUpdate();
 
-            //Delete the entire table
-            //document.Tables.Remove(tbl);
+            // Delete the entire table
+            // document.Tables.Remove(tbl);
             #endregion #DeleteCells
 
             #region #CallDeleteColumns
-            //Call the declared method using ForEachRow method and the corresponding delegate
+            // Call the declared method using ForEachRow method and the corresponding delegate
             tbl.ForEachRow(new TableRowProcessorDelegate(DeleteCells));
             #endregion #CallDeleteColumns
 

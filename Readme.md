@@ -3,16 +3,16 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T472346)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+# WinForms Rich Text Editor - Create a Table in Code
+
+The following example demonstrates how to use [RichEditControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraRichEdit.RichEditControl) to manage document tables in code.
+
+![table result](./media/image.png)
+
+# Files to Review
 
 * [Form1.cs](./CS/TablesSimpleExample/Form1.cs) (VB: [Form1.vb](./VB/TablesSimpleExample/Form1.vb))
-<!-- default file list end -->
-# Tables Simple Example
 
+# Documentation
 
-The following example demonstrates how the RichEditControl manages document tables in code.
-
-<br/>
-
-
+* [Tables in Rich Text Documents](https://docs.devexpress.com/WindowsForms/8306/controls-and-libraries/rich-text-editor/rich-edit-control-document/tables)
