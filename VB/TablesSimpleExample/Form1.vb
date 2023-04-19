@@ -17,7 +17,7 @@ Namespace TablesSimpleExample
             FormatData(richEditControl1.Document)
             CustomizeTable(richEditControl1.Document)
             TableStyle(richEditControl1.Document)
-            'WrapText(richEditControl1.Document);
+            WrapText(richEditControl1.Document)
             AdjustTableRows(richEditControl1.Document)
         'DeleteElements(richEditControl1.Document);
         End Sub
@@ -25,11 +25,11 @@ Namespace TablesSimpleExample
         Private Sub AdjustTableRows(ByVal document As Document)
             Dim table As Table = document.Tables(0)
             table.BeginUpdate()
-            'Repeat first three rows as header:
+            ' Repeat first three rows as header:
             table.Rows(0).RepeatAsHeaderRow = True
             table.Rows(1).RepeatAsHeaderRow = True
             table.Rows(2).RepeatAsHeaderRow = True
-            'Break last row across pages:
+            ' Break last row across pages:
             table.LastRow.BreakAcrossPages = True
             table.EndUpdate()
         End Sub
@@ -76,16 +76,16 @@ Namespace TablesSimpleExample
         End Sub
 
         Private Sub FillData(ByVal document As Document)
-#Region "#DataInserting"
+#Region "#InsertData"
             Dim table As Table = document.Tables(0)
-            'Insert the header data
+            ' Insert header data
             document.InsertSingleLineText(table.Rows(0).Cells(1).Range.Start, "Active Customers")
             document.InsertSingleLineText(table(2, 0).Range.Start, "Photo")
             document.InsertSingleLineText(table(2, 1).Range.Start, "Customer Info")
             document.InsertSingleLineText(table(2, 2).Range.Start, "Rentals")
-            'Insert the customer photo
+            ' Insert the customer photo
             document.Images.Insert(table(3, 0).Range.Start, DocumentImageSource.FromFile("photo.png"))
-            'Insert the customer info
+            ' Insert the customer info
             document.InsertText(table(3, 1).Range.Start, "Ryan Anita W")
             document.InsertText(table(3, 2).Range.Start, "Intermediate")
             document.InsertText(table(4, 1).Range.Start, "3/28/1984")
@@ -93,7 +93,7 @@ Namespace TablesSimpleExample
             document.InsertText(table(5, 2).Range.Start, "(555)421-0059")
             document.InsertText(table(6, 1).Range.Start, "5119 Beryl Dr, San Antonio, TX 78212")
             document.InsertSingleLineText(table(3, 3).Range.Start, "18")
-#End Region  ' #DataInserting
+#End Region  ' #InsertData
         End Sub
 
         Private Sub FormatData(ByVal document As Document)
@@ -203,14 +203,14 @@ Namespace TablesSimpleExample
             table.BeginUpdate()
             'Wrap text around the table
             table.TextWrappingType = TableTextWrappingType.Around
-            'Specify vertical alignment:
+            ' Specify vertical alignment:
             table.RelativeVerticalPosition = TableRelativeVerticalPosition.Paragraph
             table.VerticalAlignment = TableVerticalAlignment.None
             table.OffsetYRelative = Units.InchesToDocumentsF(2F)
-            'Specify horizontal alignment:
+            ' Specify horizontal alignment:
             table.RelativeHorizontalPosition = TableRelativeHorizontalPosition.Margin
             table.HorizontalAlignment = TableHorizontalAlignment.Center
-            'Set distance between the text and the table:
+            ' Set distance between the text and the table:
             table.MarginBottom = Units.InchesToDocumentsF(0.3F)
             table.MarginLeft = Units.InchesToDocumentsF(0.3F)
             table.MarginTop = Units.InchesToDocumentsF(0.3F)
@@ -219,7 +219,7 @@ Namespace TablesSimpleExample
         End Sub
 
 #Region "#DeleteColumns"
-        'Declare a method that deletes the second cell in every table row
+        ' Declare a method that deletes the second cell in every table row
         Public Shared Sub DeleteCells(ByVal row As TableRow, ByVal i As Integer)
             row.Cells(1).Delete()
         End Sub
@@ -229,16 +229,16 @@ Namespace TablesSimpleExample
 #Region "#DeleteCells"
             Dim tbl As Table = document.Tables(0)
             tbl.BeginUpdate()
-            'Delete a cell
+            ' Delete a cell
             tbl.Cell(1, 1).Delete()
-            'Delete a row
+            ' Delete a row
             tbl.Rows(0).Delete()
             tbl.EndUpdate()
-            'Delete the entire table
-            'document.Tables.Remove(tbl);
+            ' Delete the entire table
+            ' document.Tables.Remove(tbl);
 #End Region  ' #DeleteCells
 #Region "#CallDeleteColumns"
-            'Call the declared method using ForEachRow method and the corresponding delegate
+            ' Call the declared method using ForEachRow method and the corresponding delegate
             tbl.ForEachRow(New TableRowProcessorDelegate(AddressOf DeleteCells))
 #End Region  ' #CallDeleteColumns
         End Sub
