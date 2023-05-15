@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # WinForms Rich Text Editor - Create a Table in Code
 
-The following example demonstrates how to use [RichEditControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraRichEdit.RichEditControl) to manage document tables in code.
+The following example demonstrates how to use the Table API subset of the [RichEditControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraRichEdit.RichEditControl) to generate complex tables in code. Use the **Table** Ribbon tab to create and modify a table.
 
 ![table result](./media/image.png)
 
