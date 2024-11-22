@@ -201,11 +201,11 @@ namespace TablesSimpleExample
 
             // Specify style options
             TableBorder insideHorizontalBorder = tStyleMain.TableBorders.InsideHorizontalBorder;
-            insideHorizontalBorder.LineStyle = TableBorderLineStyle.Single;
+            insideHorizontalBorder.LineStyle = BorderLineStyle.Single;
             insideHorizontalBorder.LineColor = Color.White;
 
             TableBorder insideVerticalBorder = tStyleMain.TableBorders.InsideVerticalBorder;
-            insideVerticalBorder.LineStyle = TableBorderLineStyle.Single;
+            insideVerticalBorder.LineStyle = BorderLineStyle.Single;
             insideVerticalBorder.LineColor = Color.White;
             tStyleMain.CellBackgroundColor = Color.FromArgb(227, 238, 220);
             tStyleMain.Name = "MyTableStyle";
