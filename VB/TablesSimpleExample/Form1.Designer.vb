@@ -282,11 +282,49 @@ Namespace TablesSimpleExample
             Me.floatingObjectSendBackwardItem1 = New DevExpress.XtraRichEdit.UI.FloatingObjectSendBackwardItem()
             Me.floatingObjectSendToBackItem1 = New DevExpress.XtraRichEdit.UI.FloatingObjectSendToBackItem()
             Me.floatingObjectSendBehindTextItem1 = New DevExpress.XtraRichEdit.UI.FloatingObjectSendBehindTextItem()
+            Me.toggleTableCellsBottomLeftRotate90AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomLeftRotate90AlignmentItem()
+            Me.toggleTableCellsBottomCenterRotate90AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomCenterRotate90AlignmentItem()
+            Me.toggleTableCellsBottomRightRotate90AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomRightRotate90AlignmentItem()
+            Me.toggleTableCellsMiddleLeftRotate90AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleLeftRotate90AlignmentItem()
+            Me.toggleTableCellsMiddleCenterRotate90AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleCenterRotate90AlignmentItem()
+            Me.toggleTableCellsMiddleRightRotate90AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleRightRotate90AlignmentItem()
+            Me.toggleTableCellsTopLeftRotate90AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsTopLeftRotate90AlignmentItem()
+            Me.toggleTableCellsTopCenterRotate90AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsTopCenterRotate90AlignmentItem()
+            Me.toggleTableCellsTopRightRotate90AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsTopRightRotate90AlignmentItem()
+            Me.toggleTableCellsTopRightRotate270AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsTopRightRotate270AlignmentItem()
+            Me.toggleTableCellsTopCenterRotate270AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsTopCenterRotate270AlignmentItem()
+            Me.toggleTableCellsTopLeftRotate270AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsTopLeftRotate270AlignmentItem()
+            Me.toggleTableCellsMiddleRightRotate270AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleRightRotate270AlignmentItem()
+            Me.toggleTableCellsMiddleCenterRotate270AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleCenterRotate270AlignmentItem()
+            Me.toggleTableCellsMiddleLeftRotate270AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleLeftRotate270AlignmentItem()
+            Me.toggleTableCellsBottomRightRotate270AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomRightRotate270AlignmentItem()
+            Me.toggleTableCellsBottomCenterRotate270AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomCenterRotate270AlignmentItem()
+            Me.toggleTableCellsBottomLeftRotate270AlignmentItem1 = New DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomLeftRotate270AlignmentItem()
+            Me.changeTableCellsHorizontalTextDirectionItem1 = New DevExpress.XtraRichEdit.UI.ChangeTableCellsHorizontalTextDirectionItem()
+            Me.changeTableCellsVerticalTextDirectionItem1 = New DevExpress.XtraRichEdit.UI.ChangeTableCellsVerticalTextDirectionItem()
+            Me.changeTableCellsRotateAll90TextDirectionItem1 = New DevExpress.XtraRichEdit.UI.ChangeTableCellsRotateAll90TextDirectionItem()
+            Me.changeTableCellsRotateAll270TextDirectionItem1 = New DevExpress.XtraRichEdit.UI.ChangeTableCellsRotateAll270TextDirectionItem()
+            Me.changeTableCellsRotateAsian270TextDirectionItem1 = New DevExpress.XtraRichEdit.UI.ChangeTableCellsRotateAsian270TextDirectionItem()
+            Me.createTableBtn = New DevExpress.XtraBars.BarButtonItem()
+            Me.mergeBtn = New DevExpress.XtraBars.BarButtonItem()
+            Me.repeatRowsBtn = New DevExpress.XtraBars.BarButtonItem()
+            Me.wrapTextBtn = New DevExpress.XtraBars.BarButtonItem()
+            Me.insertContentBtn = New DevExpress.XtraBars.BarButtonItem()
+            Me.formatContentBtn = New DevExpress.XtraBars.BarButtonItem()
+            Me.customizeBtn = New DevExpress.XtraBars.BarButtonItem()
+            Me.tableStyleBtn = New DevExpress.XtraBars.BarButtonItem()
+            Me.deleteCellBtn = New DevExpress.XtraBars.BarButtonItem()
+            Me.deleteRowBtn = New DevExpress.XtraBars.BarButtonItem()
+            Me.deleteColumnBtn = New DevExpress.XtraBars.BarButtonItem()
             Me.headerFooterToolsRibbonPageCategory1 = New DevExpress.XtraRichEdit.UI.HeaderFooterToolsRibbonPageCategory()
             Me.headerFooterToolsDesignRibbonPage1 = New DevExpress.XtraRichEdit.UI.HeaderFooterToolsDesignRibbonPage()
             Me.headerFooterToolsDesignNavigationRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.HeaderFooterToolsDesignNavigationRibbonPageGroup()
             Me.headerFooterToolsDesignOptionsRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.HeaderFooterToolsDesignOptionsRibbonPageGroup()
             Me.headerFooterToolsDesignCloseRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.HeaderFooterToolsDesignCloseRibbonPageGroup()
+            Me.floatingPictureToolsRibbonPageCategory1 = New DevExpress.XtraRichEdit.UI.FloatingPictureToolsRibbonPageCategory()
+            Me.floatingPictureToolsFormatPage1 = New DevExpress.XtraRichEdit.UI.FloatingPictureToolsFormatPage()
+            Me.floatingPictureToolsShapeStylesPageGroup1 = New DevExpress.XtraRichEdit.UI.FloatingPictureToolsShapeStylesPageGroup()
+            Me.floatingPictureToolsArrangePageGroup1 = New DevExpress.XtraRichEdit.UI.FloatingPictureToolsArrangePageGroup()
             Me.tableToolsRibbonPageCategory1 = New DevExpress.XtraRichEdit.UI.TableToolsRibbonPageCategory()
             Me.tableDesignRibbonPage1 = New DevExpress.XtraRichEdit.UI.TableDesignRibbonPage()
             Me.tableStyleOptionsRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.TableStyleOptionsRibbonPageGroup()
@@ -298,10 +336,6 @@ Namespace TablesSimpleExample
             Me.tableMergeRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.TableMergeRibbonPageGroup()
             Me.tableCellSizeRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.TableCellSizeRibbonPageGroup()
             Me.tableAlignmentRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.TableAlignmentRibbonPageGroup()
-            Me.floatingPictureToolsRibbonPageCategory1 = New DevExpress.XtraRichEdit.UI.FloatingPictureToolsRibbonPageCategory()
-            Me.floatingPictureToolsFormatPage1 = New DevExpress.XtraRichEdit.UI.FloatingPictureToolsFormatPage()
-            Me.floatingPictureToolsShapeStylesPageGroup1 = New DevExpress.XtraRichEdit.UI.FloatingPictureToolsShapeStylesPageGroup()
-            Me.floatingPictureToolsArrangePageGroup1 = New DevExpress.XtraRichEdit.UI.FloatingPictureToolsArrangePageGroup()
             Me.fileRibbonPage1 = New DevExpress.XtraRichEdit.UI.FileRibbonPage()
             Me.commonRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.CommonRibbonPageGroup()
             Me.infoRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.InfoRibbonPageGroup()
@@ -312,30 +346,19 @@ Namespace TablesSimpleExample
             Me.editingRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.EditingRibbonPageGroup()
             Me.insertRibbonPage1 = New DevExpress.XtraRichEdit.UI.InsertRibbonPage()
             Me.pagesRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.PagesRibbonPageGroup()
-            Me.tablesRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.TablesRibbonPageGroup()
             Me.illustrationsRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.IllustrationsRibbonPageGroup()
             Me.linksRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.LinksRibbonPageGroup()
             Me.headerFooterRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.HeaderFooterRibbonPageGroup()
             Me.textRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.TextRibbonPageGroup()
             Me.symbolsRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.SymbolsRibbonPageGroup()
-            Me.pageLayoutRibbonPage1 = New DevExpress.XtraRichEdit.UI.PageLayoutRibbonPage()
-            Me.pageSetupRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.PageSetupRibbonPageGroup()
-            Me.pageBackgroundRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.PageBackgroundRibbonPageGroup()
-            Me.referencesRibbonPage1 = New DevExpress.XtraRichEdit.UI.ReferencesRibbonPage()
-            Me.tableOfContentsRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.TableOfContentsRibbonPageGroup()
-            Me.captionsRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.CaptionsRibbonPageGroup()
-            Me.mailingsRibbonPage1 = New DevExpress.XtraRichEdit.UI.MailingsRibbonPage()
-            Me.mailMergeRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.MailMergeRibbonPageGroup()
-            Me.reviewRibbonPage1 = New DevExpress.XtraRichEdit.UI.ReviewRibbonPage()
-            Me.documentProofingRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.DocumentProofingRibbonPageGroup()
-            Me.documentProtectionRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.DocumentProtectionRibbonPageGroup()
-            Me.documentCommentRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.DocumentCommentRibbonPageGroup()
-            Me.documentTrackingRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.DocumentTrackingRibbonPageGroup()
-            Me.viewRibbonPage1 = New DevExpress.XtraRichEdit.UI.ViewRibbonPage()
-            Me.documentViewsRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.DocumentViewsRibbonPageGroup()
-            Me.showRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.ShowRibbonPageGroup()
-            Me.zoomRibbonPageGroup1 = New DevExpress.XtraRichEdit.UI.ZoomRibbonPageGroup()
+            Me.ribbonPage1 = New DevExpress.XtraBars.Ribbon.RibbonPage()
+            Me.ribbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+            Me.ribbonPageGroup2 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+            Me.ribbonPageGroup3 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+            Me.ribbonPageGroup4 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+            Me.ribbonPageGroup5 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
             Me.richEditBarController1 = New DevExpress.XtraRichEdit.UI.RichEditBarController(Me.components)
+            Me.barButtonItem1 = New DevExpress.XtraBars.BarButtonItem()
             CType((Me.ribbonControl1), System.ComponentModel.ISupportInitialize).BeginInit()
             CType((Me.repositoryItemFontEdit1), System.ComponentModel.ISupportInitialize).BeginInit()
             CType((Me.repositoryItemRichEditFontSizeEdit1), System.ComponentModel.ISupportInitialize).BeginInit()
@@ -359,34 +382,36 @@ Namespace TablesSimpleExample
             ' 
             Me.galleryChangeStyleItem1.Gallery.ColumnCount = 10
             Me.galleryChangeStyleItem1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {galleryItemGroup1})
-            Me.galleryChangeStyleItem1.Gallery.ImageSize = New System.Drawing.Size(65, 46)
+            Me.galleryChangeStyleItem1.Gallery.ImageSize = New System.Drawing.Size(38, 29)
             Me.galleryChangeStyleItem1.Id = 62
             Me.galleryChangeStyleItem1.Name = "galleryChangeStyleItem1"
             ' 
             ' richEditControl1
             ' 
             Me.richEditControl1.Dock = System.Windows.Forms.DockStyle.Fill
-            Me.richEditControl1.Location = New System.Drawing.Point(0, 298)
-            Me.richEditControl1.Margin = New System.Windows.Forms.Padding(6)
+            Me.richEditControl1.Location = New System.Drawing.Point(0, 193)
+            Me.richEditControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
             Me.richEditControl1.MenuManager = Me.ribbonControl1
             Me.richEditControl1.Name = "richEditControl1"
-            Me.richEditControl1.Size = New System.Drawing.Size(2216, 1048)
+            Me.richEditControl1.Size = New System.Drawing.Size(1132, 512)
             Me.richEditControl1.TabIndex = 0
             ' 
             ' ribbonControl1
             ' 
+            Me.ribbonControl1.EmptyAreaImageOptions.ImagePadding = New System.Windows.Forms.Padding(17, 19, 17, 19)
             Me.ribbonControl1.ExpandCollapseItem.Id = 0
-            Me.ribbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.ribbonControl1.ExpandCollapseItem, Me.ribbonControl1.SearchEditItem, Me.undoItem1, Me.redoItem1, Me.fileNewItem1, Me.fileOpenItem1, Me.fileSaveItem1, Me.fileSaveAsItem1, Me.quickPrintItem1, Me.printItem1, Me.printPreviewItem1, Me.showDocumentPropertiesFormItem1, Me.pasteItem1, Me.cutItem1, Me.copyItem1, Me.pasteSpecialItem1, Me.barButtonGroup1, Me.changeFontNameItem1, Me.changeFontSizeItem1, Me.fontSizeIncreaseItem1, Me.fontSizeDecreaseItem1, Me.barButtonGroup2, Me.toggleFontBoldItem1, Me.toggleFontItalicItem1, Me.toggleFontUnderlineItem1, Me.toggleFontDoubleUnderlineItem1, Me.toggleFontStrikeoutItem1, Me.toggleFontDoubleStrikeoutItem1, Me.toggleFontSuperscriptItem1, Me.toggleFontSubscriptItem1, Me.barButtonGroup3, Me.changeFontColorItem1, Me.changeFontHighlightColorItem1, Me.changeTextCaseItem1, Me.makeTextUpperCaseItem1, Me.makeTextLowerCaseItem1, Me.capitalizeEachWordCaseItem1, Me.toggleTextCaseItem1, Me.clearFormattingItem1, Me.barButtonGroup4, Me.toggleBulletedListItem1, Me.toggleNumberingListItem1, Me.toggleMultiLevelListItem1, Me.barButtonGroup5, Me.decreaseIndentItem1, Me.increaseIndentItem1, Me.barButtonGroup6, Me.toggleParagraphAlignmentLeftItem1, Me.toggleParagraphAlignmentCenterItem1, Me.toggleParagraphAlignmentRightItem1, Me.toggleParagraphAlignmentJustifyItem1, Me.toggleShowWhitespaceItem1, Me.barButtonGroup7, Me.changeParagraphLineSpacingItem1, Me.setSingleParagraphSpacingItem1, Me.setSesquialteralParagraphSpacingItem1, Me.setDoubleParagraphSpacingItem1, Me.showLineSpacingFormItem1, Me.addSpacingBeforeParagraphItem1, Me.removeSpacingBeforeParagraphItem1, Me.addSpacingAfterParagraphItem1, Me.removeSpacingAfterParagraphItem1, Me.changeParagraphBackColorItem1, Me.galleryChangeStyleItem1, Me.findItem1, Me.replaceItem1, Me.insertPageBreakItem21, Me.insertTableItem1, Me.insertPictureItem1, Me.insertFloatingPictureItem1, Me.insertBookmarkItem1, Me.insertHyperlinkItem1, Me.editPageHeaderItem1, Me.editPageFooterItem1, Me.insertPageNumberItem1, Me.insertPageCountItem1, Me.insertTextBoxItem1, Me.insertSymbolItem1, Me.changeSectionPageMarginsItem1, Me.setNormalSectionPageMarginsItem1, Me.setNarrowSectionPageMarginsItem1, Me.setModerateSectionPageMarginsItem1, Me.setWideSectionPageMarginsItem1, Me.showPageMarginsSetupFormItem1, Me.changeSectionPageOrientationItem1, Me.setPortraitPageOrientationItem1, Me.setLandscapePageOrientationItem1, Me.changeSectionPaperKindItem1, Me.changeSectionColumnsItem1, Me.setSectionOneColumnItem1, Me.setSectionTwoColumnsItem1, Me.setSectionThreeColumnsItem1, Me.showColumnsSetupFormItem1, Me.insertBreakItem1, Me.insertPageBreakItem1, Me.insertColumnBreakItem1, Me.insertSectionBreakNextPageItem1, Me.insertSectionBreakEvenPageItem1, Me.insertSectionBreakOddPageItem1, Me.changeSectionLineNumberingItem1, Me.setSectionLineNumberingNoneItem1, Me.setSectionLineNumberingContinuousItem1, Me.setSectionLineNumberingRestartNewPageItem1, Me.setSectionLineNumberingRestartNewSectionItem1, Me.toggleParagraphSuppressLineNumbersItem1, Me.showLineNumberingFormItem1, Me.changePageColorItem1, Me.insertTableOfContentsItem1, Me.updateTableOfContentsItem1, Me.addParagraphsToTableOfContentItem1, Me.setParagraphHeadingLevelItem1, Me.setParagraphHeadingLevelItem2, Me.setParagraphHeadingLevelItem3, Me.setParagraphHeadingLevelItem4, Me.setParagraphHeadingLevelItem5, Me.setParagraphHeadingLevelItem6, Me.setParagraphHeadingLevelItem7, Me.setParagraphHeadingLevelItem8, Me.setParagraphHeadingLevelItem9, Me.setParagraphHeadingLevelItem10, Me.insertCaptionPlaceholderItem1, Me.insertFiguresCaptionItems1, Me.insertTablesCaptionItems1, Me.insertEquationsCaptionItems1, Me.insertTableOfFiguresPlaceholderItem1, Me.insertTableOfFiguresItems1, Me.insertTableOfTablesItems1, Me.insertTableOfEquationsItems1, Me.updateTableOfFiguresItem1, Me.insertMergeFieldItem1, Me.showAllFieldCodesItem1, Me.showAllFieldResultsItem1, Me.toggleViewMergedDataItem1, Me.checkSpellingItem1, Me.changeLanguageItem1, Me.protectDocumentItem1, Me.changeRangeEditingPermissionsItem1, Me.unprotectDocumentItem1, Me.newCommentItem1, Me.deleteCommentsItem1, Me.deleteOneCommentItem1, Me.deleteAllCommentsShownItem1, Me.deleteAllCommentsItem1, Me.previousCommentItem1, Me.nextCommentItem1, Me.changeCommentItem1, Me.reviewersItem1, Me.reviewingPaneItem1, Me.switchToSimpleViewItem1, Me.switchToDraftViewItem1, Me.switchToPrintLayoutViewItem1, Me.toggleShowHorizontalRulerItem1, Me.toggleShowVerticalRulerItem1, Me.zoomOutItem1, Me.zoomInItem1, Me.goToPageHeaderItem1, Me.goToPageFooterItem1, Me.goToNextHeaderFooterItem1, Me.goToPreviousHeaderFooterItem1, Me.toggleLinkToPreviousItem1, Me.toggleDifferentFirstPageItem1, Me.toggleDifferentOddAndEvenPagesItem1, Me.closePageHeaderFooterItem1, Me.toggleFirstRowItem1, Me.toggleLastRowItem1, Me.toggleBandedRowsItem1, Me.toggleFirstColumnItem1, Me.toggleLastColumnItem1, Me.toggleBandedColumnsItem1, Me.galleryChangeTableStyleItem1, Me.changeTableBorderLineStyleItem1, Me.changeTableBorderLineWeightItem1, Me.changeTableBorderColorItem1, Me.changeTableBordersItem1, Me.toggleTableCellsBottomBorderItem1, Me.toggleTableCellsTopBorderItem1, Me.toggleTableCellsLeftBorderItem1, Me.toggleTableCellsRightBorderItem1, Me.resetTableCellsAllBordersItem1, Me.toggleTableCellsAllBordersItem1, Me.toggleTableCellsOutsideBorderItem1, Me.toggleTableCellsInsideBorderItem1, Me.toggleTableCellsInsideHorizontalBorderItem1, Me.toggleTableCellsInsideVerticalBorderItem1, Me.toggleShowTableGridLinesItem1, Me.changeTableCellsShadingItem1, Me.selectTableElementsItem1, Me.selectTableCellItem1, Me.selectTableColumnItem1, Me.selectTableRowItem1, Me.selectTableItem1, Me.showTablePropertiesFormItem1, Me.deleteTableElementsItem1, Me.showDeleteTableCellsFormItem1, Me.deleteTableColumnsItem1, Me.deleteTableRowsItem1, Me.deleteTableItem1, Me.insertTableRowAboveItem1, Me.insertTableRowBelowItem1, Me.insertTableColumnToLeftItem1, Me.insertTableColumnToRightItem1, Me.mergeTableCellsItem1, Me.showSplitTableCellsForm1, Me.splitTableItem1, Me.toggleTableAutoFitItem1, Me.toggleTableAutoFitContentsItem1, Me.toggleTableAutoFitWindowItem1, Me.toggleTableFixedColumnWidthItem1, Me.toggleTableCellsTopLeftAlignmentItem1, Me.toggleTableCellsMiddleLeftAlignmentItem1, Me.toggleTableCellsBottomLeftAlignmentItem1, Me.toggleTableCellsTopCenterAlignmentItem1, Me.toggleTableCellsMiddleCenterAlignmentItem1, Me.toggleTableCellsBottomCenterAlignmentItem1, Me.toggleTableCellsTopRightAlignmentItem1, Me.toggleTableCellsMiddleRightAlignmentItem1, Me.toggleTableCellsBottomRightAlignmentItem1, Me.showTableOptionsFormItem1, Me.changeFloatingObjectFillColorItem1, Me.changeFloatingObjectOutlineColorItem1, Me.changeFloatingObjectOutlineWeightItem1, Me.changeFloatingObjectTextWrapTypeItem1, Me.setFloatingObjectSquareTextWrapTypeItem1, Me.setFloatingObjectTightTextWrapTypeItem1, Me.setFloatingObjectThroughTextWrapTypeItem1, Me.setFloatingObjectTopAndBottomTextWrapTypeItem1, Me.setFloatingObjectBehindTextWrapTypeItem1, Me.setFloatingObjectInFrontOfTextWrapTypeItem1, Me.changeFloatingObjectAlignmentItem1, Me.setFloatingObjectTopLeftAlignmentItem1, Me.setFloatingObjectTopCenterAlignmentItem1, Me.setFloatingObjectTopRightAlignmentItem1, Me.setFloatingObjectMiddleLeftAlignmentItem1, Me.setFloatingObjectMiddleCenterAlignmentItem1, Me.setFloatingObjectMiddleRightAlignmentItem1, Me.setFloatingObjectBottomLeftAlignmentItem1, Me.setFloatingObjectBottomCenterAlignmentItem1, Me.setFloatingObjectBottomRightAlignmentItem1, Me.floatingObjectBringForwardSubItem1, Me.floatingObjectBringForwardItem1, Me.floatingObjectBringToFrontItem1, Me.floatingObjectBringInFrontOfTextItem1, Me.floatingObjectSendBackwardSubItem1, Me.floatingObjectSendBackwardItem1, Me.floatingObjectSendToBackItem1, Me.floatingObjectSendBehindTextItem1})
+            Me.ribbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.ribbonControl1.ExpandCollapseItem, Me.undoItem1, Me.redoItem1, Me.fileNewItem1, Me.fileOpenItem1, Me.fileSaveItem1, Me.fileSaveAsItem1, Me.quickPrintItem1, Me.printItem1, Me.printPreviewItem1, Me.showDocumentPropertiesFormItem1, Me.pasteItem1, Me.cutItem1, Me.copyItem1, Me.pasteSpecialItem1, Me.barButtonGroup1, Me.changeFontNameItem1, Me.changeFontSizeItem1, Me.fontSizeIncreaseItem1, Me.fontSizeDecreaseItem1, Me.barButtonGroup2, Me.toggleFontBoldItem1, Me.toggleFontItalicItem1, Me.toggleFontUnderlineItem1, Me.toggleFontDoubleUnderlineItem1, Me.toggleFontStrikeoutItem1, Me.toggleFontDoubleStrikeoutItem1, Me.toggleFontSuperscriptItem1, Me.toggleFontSubscriptItem1, Me.barButtonGroup3, Me.changeFontColorItem1, Me.changeFontHighlightColorItem1, Me.changeTextCaseItem1, Me.makeTextUpperCaseItem1, Me.makeTextLowerCaseItem1, Me.capitalizeEachWordCaseItem1, Me.toggleTextCaseItem1, Me.clearFormattingItem1, Me.barButtonGroup4, Me.toggleBulletedListItem1, Me.toggleNumberingListItem1, Me.toggleMultiLevelListItem1, Me.barButtonGroup5, Me.decreaseIndentItem1, Me.increaseIndentItem1, Me.barButtonGroup6, Me.toggleParagraphAlignmentLeftItem1, Me.toggleParagraphAlignmentCenterItem1, Me.toggleParagraphAlignmentRightItem1, Me.toggleParagraphAlignmentJustifyItem1, Me.toggleShowWhitespaceItem1, Me.barButtonGroup7, Me.changeParagraphLineSpacingItem1, Me.setSingleParagraphSpacingItem1, Me.setSesquialteralParagraphSpacingItem1, Me.setDoubleParagraphSpacingItem1, Me.showLineSpacingFormItem1, Me.addSpacingBeforeParagraphItem1, Me.removeSpacingBeforeParagraphItem1, Me.addSpacingAfterParagraphItem1, Me.removeSpacingAfterParagraphItem1, Me.changeParagraphBackColorItem1, Me.galleryChangeStyleItem1, Me.findItem1, Me.replaceItem1, Me.insertPageBreakItem21, Me.insertTableItem1, Me.insertPictureItem1, Me.insertFloatingPictureItem1, Me.insertBookmarkItem1, Me.insertHyperlinkItem1, Me.editPageHeaderItem1, Me.editPageFooterItem1, Me.insertPageNumberItem1, Me.insertPageCountItem1, Me.insertTextBoxItem1, Me.insertSymbolItem1, Me.changeSectionPageMarginsItem1, Me.setNormalSectionPageMarginsItem1, Me.setNarrowSectionPageMarginsItem1, Me.setModerateSectionPageMarginsItem1, Me.setWideSectionPageMarginsItem1, Me.showPageMarginsSetupFormItem1, Me.changeSectionPageOrientationItem1, Me.setPortraitPageOrientationItem1, Me.setLandscapePageOrientationItem1, Me.changeSectionPaperKindItem1, Me.changeSectionColumnsItem1, Me.setSectionOneColumnItem1, Me.setSectionTwoColumnsItem1, Me.setSectionThreeColumnsItem1, Me.showColumnsSetupFormItem1, Me.insertBreakItem1, Me.insertPageBreakItem1, Me.insertColumnBreakItem1, Me.insertSectionBreakNextPageItem1, Me.insertSectionBreakEvenPageItem1, Me.insertSectionBreakOddPageItem1, Me.changeSectionLineNumberingItem1, Me.setSectionLineNumberingNoneItem1, Me.setSectionLineNumberingContinuousItem1, Me.setSectionLineNumberingRestartNewPageItem1, Me.setSectionLineNumberingRestartNewSectionItem1, Me.toggleParagraphSuppressLineNumbersItem1, Me.showLineNumberingFormItem1, Me.changePageColorItem1, Me.insertTableOfContentsItem1, Me.updateTableOfContentsItem1, Me.addParagraphsToTableOfContentItem1, Me.setParagraphHeadingLevelItem1, Me.setParagraphHeadingLevelItem2, Me.setParagraphHeadingLevelItem3, Me.setParagraphHeadingLevelItem4, Me.setParagraphHeadingLevelItem5, Me.setParagraphHeadingLevelItem6, Me.setParagraphHeadingLevelItem7, Me.setParagraphHeadingLevelItem8, Me.setParagraphHeadingLevelItem9, Me.setParagraphHeadingLevelItem10, Me.insertCaptionPlaceholderItem1, Me.insertFiguresCaptionItems1, Me.insertTablesCaptionItems1, Me.insertEquationsCaptionItems1, Me.insertTableOfFiguresPlaceholderItem1, Me.insertTableOfFiguresItems1, Me.insertTableOfTablesItems1, Me.insertTableOfEquationsItems1, Me.updateTableOfFiguresItem1, Me.insertMergeFieldItem1, Me.showAllFieldCodesItem1, Me.showAllFieldResultsItem1, Me.toggleViewMergedDataItem1, Me.checkSpellingItem1, Me.changeLanguageItem1, Me.protectDocumentItem1, Me.changeRangeEditingPermissionsItem1, Me.unprotectDocumentItem1, Me.newCommentItem1, Me.deleteCommentsItem1, Me.deleteOneCommentItem1, Me.deleteAllCommentsShownItem1, Me.deleteAllCommentsItem1, Me.previousCommentItem1, Me.nextCommentItem1, Me.changeCommentItem1, Me.reviewersItem1, Me.reviewingPaneItem1, Me.switchToSimpleViewItem1, Me.switchToDraftViewItem1, Me.switchToPrintLayoutViewItem1, Me.toggleShowHorizontalRulerItem1, Me.toggleShowVerticalRulerItem1, Me.zoomOutItem1, Me.zoomInItem1, Me.goToPageHeaderItem1, Me.goToPageFooterItem1, Me.goToNextHeaderFooterItem1, Me.goToPreviousHeaderFooterItem1, Me.toggleLinkToPreviousItem1, Me.toggleDifferentFirstPageItem1, Me.toggleDifferentOddAndEvenPagesItem1, Me.closePageHeaderFooterItem1, Me.toggleFirstRowItem1, Me.toggleLastRowItem1, Me.toggleBandedRowsItem1, Me.toggleFirstColumnItem1, Me.toggleLastColumnItem1, Me.toggleBandedColumnsItem1, Me.galleryChangeTableStyleItem1, Me.changeTableBorderLineStyleItem1, Me.changeTableBorderLineWeightItem1, Me.changeTableBorderColorItem1, Me.changeTableBordersItem1, Me.toggleTableCellsBottomBorderItem1, Me.toggleTableCellsTopBorderItem1, Me.toggleTableCellsLeftBorderItem1, Me.toggleTableCellsRightBorderItem1, Me.resetTableCellsAllBordersItem1, Me.toggleTableCellsAllBordersItem1, Me.toggleTableCellsOutsideBorderItem1, Me.toggleTableCellsInsideBorderItem1, Me.toggleTableCellsInsideHorizontalBorderItem1, Me.toggleTableCellsInsideVerticalBorderItem1, Me.toggleShowTableGridLinesItem1, Me.changeTableCellsShadingItem1, Me.selectTableElementsItem1, Me.selectTableCellItem1, Me.selectTableColumnItem1, Me.selectTableRowItem1, Me.selectTableItem1, Me.showTablePropertiesFormItem1, Me.deleteTableElementsItem1, Me.showDeleteTableCellsFormItem1, Me.deleteTableColumnsItem1, Me.deleteTableRowsItem1, Me.deleteTableItem1, Me.insertTableRowAboveItem1, Me.insertTableRowBelowItem1, Me.insertTableColumnToLeftItem1, Me.insertTableColumnToRightItem1, Me.mergeTableCellsItem1, Me.showSplitTableCellsForm1, Me.splitTableItem1, Me.toggleTableAutoFitItem1, Me.toggleTableAutoFitContentsItem1, Me.toggleTableAutoFitWindowItem1, Me.toggleTableFixedColumnWidthItem1, Me.toggleTableCellsTopLeftAlignmentItem1, Me.toggleTableCellsMiddleLeftAlignmentItem1, Me.toggleTableCellsBottomLeftAlignmentItem1, Me.toggleTableCellsTopCenterAlignmentItem1, Me.toggleTableCellsMiddleCenterAlignmentItem1, Me.toggleTableCellsBottomCenterAlignmentItem1, Me.toggleTableCellsTopRightAlignmentItem1, Me.toggleTableCellsMiddleRightAlignmentItem1, Me.toggleTableCellsBottomRightAlignmentItem1, Me.showTableOptionsFormItem1, Me.changeFloatingObjectFillColorItem1, Me.changeFloatingObjectOutlineColorItem1, Me.changeFloatingObjectOutlineWeightItem1, Me.changeFloatingObjectTextWrapTypeItem1, Me.setFloatingObjectSquareTextWrapTypeItem1, Me.setFloatingObjectTightTextWrapTypeItem1, Me.setFloatingObjectThroughTextWrapTypeItem1, Me.setFloatingObjectTopAndBottomTextWrapTypeItem1, Me.setFloatingObjectBehindTextWrapTypeItem1, Me.setFloatingObjectInFrontOfTextWrapTypeItem1, Me.changeFloatingObjectAlignmentItem1, Me.setFloatingObjectTopLeftAlignmentItem1, Me.setFloatingObjectTopCenterAlignmentItem1, Me.setFloatingObjectTopRightAlignmentItem1, Me.setFloatingObjectMiddleLeftAlignmentItem1, Me.setFloatingObjectMiddleCenterAlignmentItem1, Me.setFloatingObjectMiddleRightAlignmentItem1, Me.setFloatingObjectBottomLeftAlignmentItem1, Me.setFloatingObjectBottomCenterAlignmentItem1, Me.setFloatingObjectBottomRightAlignmentItem1, Me.floatingObjectBringForwardSubItem1, Me.floatingObjectBringForwardItem1, Me.floatingObjectBringToFrontItem1, Me.floatingObjectBringInFrontOfTextItem1, Me.floatingObjectSendBackwardSubItem1, Me.floatingObjectSendBackwardItem1, Me.floatingObjectSendToBackItem1, Me.floatingObjectSendBehindTextItem1, Me.toggleTableCellsBottomLeftRotate90AlignmentItem1, Me.toggleTableCellsBottomCenterRotate90AlignmentItem1, Me.toggleTableCellsBottomRightRotate90AlignmentItem1, Me.toggleTableCellsMiddleLeftRotate90AlignmentItem1, Me.toggleTableCellsMiddleCenterRotate90AlignmentItem1, Me.toggleTableCellsMiddleRightRotate90AlignmentItem1, Me.toggleTableCellsTopLeftRotate90AlignmentItem1, Me.toggleTableCellsTopCenterRotate90AlignmentItem1, Me.toggleTableCellsTopRightRotate90AlignmentItem1, Me.toggleTableCellsTopRightRotate270AlignmentItem1, Me.toggleTableCellsTopCenterRotate270AlignmentItem1, Me.toggleTableCellsTopLeftRotate270AlignmentItem1, Me.toggleTableCellsMiddleRightRotate270AlignmentItem1, Me.toggleTableCellsMiddleCenterRotate270AlignmentItem1, Me.toggleTableCellsMiddleLeftRotate270AlignmentItem1, Me.toggleTableCellsBottomRightRotate270AlignmentItem1, Me.toggleTableCellsBottomCenterRotate270AlignmentItem1, Me.toggleTableCellsBottomLeftRotate270AlignmentItem1, Me.changeTableCellsHorizontalTextDirectionItem1, Me.changeTableCellsVerticalTextDirectionItem1, Me.changeTableCellsRotateAll90TextDirectionItem1, Me.changeTableCellsRotateAll270TextDirectionItem1, Me.changeTableCellsRotateAsian270TextDirectionItem1, Me.createTableBtn, Me.mergeBtn, Me.repeatRowsBtn, Me.wrapTextBtn, Me.insertContentBtn, Me.formatContentBtn, Me.customizeBtn, Me.tableStyleBtn, Me.deleteCellBtn, Me.deleteRowBtn, Me.deleteColumnBtn, Me.barButtonItem1})
             Me.ribbonControl1.Location = New System.Drawing.Point(0, 0)
-            Me.ribbonControl1.Margin = New System.Windows.Forms.Padding(96, 96, 96, 96)
-            Me.ribbonControl1.MaxItemId = 245
+            Me.ribbonControl1.Margin = New System.Windows.Forms.Padding(56, 61, 56, 61)
+            Me.ribbonControl1.MaxItemId = 280
             Me.ribbonControl1.Name = "ribbonControl1"
-            Me.ribbonControl1.PageCategories.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageCategory() {Me.headerFooterToolsRibbonPageCategory1, Me.tableToolsRibbonPageCategory1, Me.floatingPictureToolsRibbonPageCategory1})
-            Me.ribbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.fileRibbonPage1, Me.homeRibbonPage1, Me.insertRibbonPage1, Me.pageLayoutRibbonPage1, Me.referencesRibbonPage1, Me.mailingsRibbonPage1, Me.reviewRibbonPage1, Me.viewRibbonPage1})
+            Me.ribbonControl1.OptionsMenuMinWidth = 192
+            Me.ribbonControl1.PageCategories.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageCategory() {Me.headerFooterToolsRibbonPageCategory1, Me.floatingPictureToolsRibbonPageCategory1, Me.tableToolsRibbonPageCategory1})
+            Me.ribbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.fileRibbonPage1, Me.homeRibbonPage1, Me.insertRibbonPage1, Me.ribbonPage1})
             Me.ribbonControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.repositoryItemFontEdit1, Me.repositoryItemRichEditFontSizeEdit1, Me.repositoryItemBorderLineStyle1, Me.repositoryItemBorderLineWeight1, Me.repositoryItemFloatingObjectOutlineWeight1})
             Me.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013
             Me.ribbonControl1.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.[False]
-            Me.ribbonControl1.Size = New System.Drawing.Size(2216, 298)
+            Me.ribbonControl1.Size = New System.Drawing.Size(1132, 193)
             ' 
             ' undoItem1
             ' 
@@ -1302,7 +1327,7 @@ Namespace TablesSimpleExample
             ' 
             Me.galleryChangeTableStyleItem1.Gallery.ColumnCount = 3
             Me.galleryChangeTableStyleItem1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() {galleryItemGroup2})
-            Me.galleryChangeTableStyleItem1.Gallery.ImageSize = New System.Drawing.Size(65, 46)
+            Me.galleryChangeTableStyleItem1.Gallery.ImageSize = New System.Drawing.Size(38, 29)
             Me.galleryChangeTableStyleItem1.Id = 168
             Me.galleryChangeTableStyleItem1.ModifyItemLink = Nothing
             Me.galleryChangeTableStyleItem1.Name = "galleryChangeTableStyleItem1"
@@ -1725,6 +1750,209 @@ Namespace TablesSimpleExample
             Me.floatingObjectSendBehindTextItem1.Id = 244
             Me.floatingObjectSendBehindTextItem1.Name = "floatingObjectSendBehindTextItem1"
             ' 
+            ' toggleTableCellsBottomLeftRotate90AlignmentItem1
+            ' 
+            Me.toggleTableCellsBottomLeftRotate90AlignmentItem1.Id = 245
+            Me.toggleTableCellsBottomLeftRotate90AlignmentItem1.Name = "toggleTableCellsBottomLeftRotate90AlignmentItem1"
+            ' 
+            ' toggleTableCellsBottomCenterRotate90AlignmentItem1
+            ' 
+            Me.toggleTableCellsBottomCenterRotate90AlignmentItem1.Id = 246
+            Me.toggleTableCellsBottomCenterRotate90AlignmentItem1.Name = "toggleTableCellsBottomCenterRotate90AlignmentItem1"
+            ' 
+            ' toggleTableCellsBottomRightRotate90AlignmentItem1
+            ' 
+            Me.toggleTableCellsBottomRightRotate90AlignmentItem1.Id = 247
+            Me.toggleTableCellsBottomRightRotate90AlignmentItem1.Name = "toggleTableCellsBottomRightRotate90AlignmentItem1"
+            ' 
+            ' toggleTableCellsMiddleLeftRotate90AlignmentItem1
+            ' 
+            Me.toggleTableCellsMiddleLeftRotate90AlignmentItem1.Id = 248
+            Me.toggleTableCellsMiddleLeftRotate90AlignmentItem1.Name = "toggleTableCellsMiddleLeftRotate90AlignmentItem1"
+            ' 
+            ' toggleTableCellsMiddleCenterRotate90AlignmentItem1
+            ' 
+            Me.toggleTableCellsMiddleCenterRotate90AlignmentItem1.Id = 249
+            Me.toggleTableCellsMiddleCenterRotate90AlignmentItem1.Name = "toggleTableCellsMiddleCenterRotate90AlignmentItem1"
+            ' 
+            ' toggleTableCellsMiddleRightRotate90AlignmentItem1
+            ' 
+            Me.toggleTableCellsMiddleRightRotate90AlignmentItem1.Id = 250
+            Me.toggleTableCellsMiddleRightRotate90AlignmentItem1.Name = "toggleTableCellsMiddleRightRotate90AlignmentItem1"
+            ' 
+            ' toggleTableCellsTopLeftRotate90AlignmentItem1
+            ' 
+            Me.toggleTableCellsTopLeftRotate90AlignmentItem1.Id = 251
+            Me.toggleTableCellsTopLeftRotate90AlignmentItem1.Name = "toggleTableCellsTopLeftRotate90AlignmentItem1"
+            ' 
+            ' toggleTableCellsTopCenterRotate90AlignmentItem1
+            ' 
+            Me.toggleTableCellsTopCenterRotate90AlignmentItem1.Id = 252
+            Me.toggleTableCellsTopCenterRotate90AlignmentItem1.Name = "toggleTableCellsTopCenterRotate90AlignmentItem1"
+            ' 
+            ' toggleTableCellsTopRightRotate90AlignmentItem1
+            ' 
+            Me.toggleTableCellsTopRightRotate90AlignmentItem1.Id = 253
+            Me.toggleTableCellsTopRightRotate90AlignmentItem1.Name = "toggleTableCellsTopRightRotate90AlignmentItem1"
+            ' 
+            ' toggleTableCellsTopRightRotate270AlignmentItem1
+            ' 
+            Me.toggleTableCellsTopRightRotate270AlignmentItem1.Id = 254
+            Me.toggleTableCellsTopRightRotate270AlignmentItem1.Name = "toggleTableCellsTopRightRotate270AlignmentItem1"
+            ' 
+            ' toggleTableCellsTopCenterRotate270AlignmentItem1
+            ' 
+            Me.toggleTableCellsTopCenterRotate270AlignmentItem1.Id = 255
+            Me.toggleTableCellsTopCenterRotate270AlignmentItem1.Name = "toggleTableCellsTopCenterRotate270AlignmentItem1"
+            ' 
+            ' toggleTableCellsTopLeftRotate270AlignmentItem1
+            ' 
+            Me.toggleTableCellsTopLeftRotate270AlignmentItem1.Id = 256
+            Me.toggleTableCellsTopLeftRotate270AlignmentItem1.Name = "toggleTableCellsTopLeftRotate270AlignmentItem1"
+            ' 
+            ' toggleTableCellsMiddleRightRotate270AlignmentItem1
+            ' 
+            Me.toggleTableCellsMiddleRightRotate270AlignmentItem1.Id = 257
+            Me.toggleTableCellsMiddleRightRotate270AlignmentItem1.Name = "toggleTableCellsMiddleRightRotate270AlignmentItem1"
+            ' 
+            ' toggleTableCellsMiddleCenterRotate270AlignmentItem1
+            ' 
+            Me.toggleTableCellsMiddleCenterRotate270AlignmentItem1.Id = 258
+            Me.toggleTableCellsMiddleCenterRotate270AlignmentItem1.Name = "toggleTableCellsMiddleCenterRotate270AlignmentItem1"
+            ' 
+            ' toggleTableCellsMiddleLeftRotate270AlignmentItem1
+            ' 
+            Me.toggleTableCellsMiddleLeftRotate270AlignmentItem1.Id = 259
+            Me.toggleTableCellsMiddleLeftRotate270AlignmentItem1.Name = "toggleTableCellsMiddleLeftRotate270AlignmentItem1"
+            ' 
+            ' toggleTableCellsBottomRightRotate270AlignmentItem1
+            ' 
+            Me.toggleTableCellsBottomRightRotate270AlignmentItem1.Id = 260
+            Me.toggleTableCellsBottomRightRotate270AlignmentItem1.Name = "toggleTableCellsBottomRightRotate270AlignmentItem1"
+            ' 
+            ' toggleTableCellsBottomCenterRotate270AlignmentItem1
+            ' 
+            Me.toggleTableCellsBottomCenterRotate270AlignmentItem1.Id = 261
+            Me.toggleTableCellsBottomCenterRotate270AlignmentItem1.Name = "toggleTableCellsBottomCenterRotate270AlignmentItem1"
+            ' 
+            ' toggleTableCellsBottomLeftRotate270AlignmentItem1
+            ' 
+            Me.toggleTableCellsBottomLeftRotate270AlignmentItem1.Id = 262
+            Me.toggleTableCellsBottomLeftRotate270AlignmentItem1.Name = "toggleTableCellsBottomLeftRotate270AlignmentItem1"
+            ' 
+            ' changeTableCellsHorizontalTextDirectionItem1
+            ' 
+            Me.changeTableCellsHorizontalTextDirectionItem1.Id = 263
+            Me.changeTableCellsHorizontalTextDirectionItem1.Name = "changeTableCellsHorizontalTextDirectionItem1"
+            ' 
+            ' changeTableCellsVerticalTextDirectionItem1
+            ' 
+            Me.changeTableCellsVerticalTextDirectionItem1.Id = 264
+            Me.changeTableCellsVerticalTextDirectionItem1.Name = "changeTableCellsVerticalTextDirectionItem1"
+            ' 
+            ' changeTableCellsRotateAll90TextDirectionItem1
+            ' 
+            Me.changeTableCellsRotateAll90TextDirectionItem1.Id = 265
+            Me.changeTableCellsRotateAll90TextDirectionItem1.Name = "changeTableCellsRotateAll90TextDirectionItem1"
+            ' 
+            ' changeTableCellsRotateAll270TextDirectionItem1
+            ' 
+            Me.changeTableCellsRotateAll270TextDirectionItem1.Id = 266
+            Me.changeTableCellsRotateAll270TextDirectionItem1.Name = "changeTableCellsRotateAll270TextDirectionItem1"
+            ' 
+            ' changeTableCellsRotateAsian270TextDirectionItem1
+            ' 
+            Me.changeTableCellsRotateAsian270TextDirectionItem1.Id = 267
+            Me.changeTableCellsRotateAsian270TextDirectionItem1.Name = "changeTableCellsRotateAsian270TextDirectionItem1"
+            ' 
+            ' createTableBtn
+            ' 
+            Me.createTableBtn.Caption = "Create a Predefined Table"
+            Me.createTableBtn.Id = 268
+            Me.createTableBtn.ImageOptions.SvgImage = CType((resources.GetObject("createTableBtn.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.createTableBtn.Name = "createTableBtn"
+            AddHandler Me.createTableBtn.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.createTablebtn_ItemClick)
+            ' 
+            ' mergeBtn
+            ' 
+            Me.mergeBtn.Caption = "Merge and Split Cells"
+            Me.mergeBtn.Id = 269
+            Me.mergeBtn.ImageOptions.SvgImage = CType((resources.GetObject("mergeBtn.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.mergeBtn.Name = "mergeBtn"
+            AddHandler Me.mergeBtn.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.mergeBtn_ItemClick)
+            ' 
+            ' repeatRowsBtn
+            ' 
+            Me.repeatRowsBtn.Caption = "Adjust Rows"
+            Me.repeatRowsBtn.Id = 270
+            Me.repeatRowsBtn.ImageOptions.SvgImage = CType((resources.GetObject("repeatRowsBtn.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.repeatRowsBtn.Name = "repeatRowsBtn"
+            AddHandler Me.repeatRowsBtn.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.repeatRowsBtn_ItemClick)
+            ' 
+            ' wrapTextBtn
+            ' 
+            Me.wrapTextBtn.Caption = "Wrap Text Around a Table"
+            Me.wrapTextBtn.Id = 271
+            Me.wrapTextBtn.ImageOptions.SvgImage = CType((resources.GetObject("wrapTextBtn.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.wrapTextBtn.Name = "wrapTextBtn"
+            AddHandler Me.wrapTextBtn.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.wrapTextBtn_ItemClick)
+            ' 
+            ' insertContentBtn
+            ' 
+            Me.insertContentBtn.Caption = "Insert Content"
+            Me.insertContentBtn.Id = 272
+            Me.insertContentBtn.ImageOptions.SvgImage = CType((resources.GetObject("insertContentBtn.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.insertContentBtn.Name = "insertContentBtn"
+            AddHandler Me.insertContentBtn.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.insertContentBtn_ItemClick)
+            ' 
+            ' formatContentBtn
+            ' 
+            Me.formatContentBtn.Caption = "Format Inserted Content"
+            Me.formatContentBtn.Id = 273
+            Me.formatContentBtn.ImageOptions.SvgImage = CType((resources.GetObject("formatContentBtn.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.formatContentBtn.Name = "formatContentBtn"
+            AddHandler Me.formatContentBtn.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.formatContentBtn_ItemClick)
+            ' 
+            ' customizeBtn
+            ' 
+            Me.customizeBtn.Caption = "Customize Table Header"
+            Me.customizeBtn.Id = 274
+            Me.customizeBtn.ImageOptions.SvgImage = CType((resources.GetObject("customizeBtn.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.customizeBtn.Name = "customizeBtn"
+            AddHandler Me.customizeBtn.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.customizeBtn_ItemClick)
+            ' 
+            ' tableStyleBtn
+            ' 
+            Me.tableStyleBtn.Caption = "Apply Table Style"
+            Me.tableStyleBtn.Id = 275
+            Me.tableStyleBtn.ImageOptions.SvgImage = CType((resources.GetObject("tableStyleBtn.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.tableStyleBtn.Name = "tableStyleBtn"
+            AddHandler Me.tableStyleBtn.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.tableStyleBtn_ItemClick)
+            ' 
+            ' deleteCellBtn
+            ' 
+            Me.deleteCellBtn.Caption = "Delete Cell"
+            Me.deleteCellBtn.Id = 276
+            Me.deleteCellBtn.ImageOptions.SvgImage = CType((resources.GetObject("deleteCellBtn.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.deleteCellBtn.Name = "deleteCellBtn"
+            AddHandler Me.deleteCellBtn.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.deleteCellBtn_ItemClick)
+            ' 
+            ' deleteRowBtn
+            ' 
+            Me.deleteRowBtn.Caption = "Delete Row"
+            Me.deleteRowBtn.Id = 277
+            Me.deleteRowBtn.ImageOptions.SvgImage = CType((resources.GetObject("deleteRowBtn.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.deleteRowBtn.Name = "deleteRowBtn"
+            AddHandler Me.deleteRowBtn.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.deleteRowBtn_ItemClick)
+            ' 
+            ' deleteColumnBtn
+            ' 
+            Me.deleteColumnBtn.Caption = "Delete Column"
+            Me.deleteColumnBtn.Id = 278
+            Me.deleteColumnBtn.ImageOptions.SvgImage = CType((resources.GetObject("deleteColumnBtn.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.deleteColumnBtn.Name = "deleteColumnBtn"
+            AddHandler Me.deleteColumnBtn.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.deleteColumnBtn_ItemClick)
+            ' 
             ' headerFooterToolsRibbonPageCategory1
             ' 
             Me.headerFooterToolsRibbonPageCategory1.Appearance.BackColor = System.Drawing.Color.FromArgb((CInt(((CByte((38)))))), (CInt(((CByte((176)))))), (CInt(((CByte((35)))))))
@@ -1760,6 +1988,36 @@ Namespace TablesSimpleExample
             Me.headerFooterToolsDesignCloseRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
             Me.headerFooterToolsDesignCloseRibbonPageGroup1.ItemLinks.Add(Me.closePageHeaderFooterItem1, "C")
             Me.headerFooterToolsDesignCloseRibbonPageGroup1.Name = "headerFooterToolsDesignCloseRibbonPageGroup1"
+            ' 
+            ' floatingPictureToolsRibbonPageCategory1
+            ' 
+            Me.floatingPictureToolsRibbonPageCategory1.Appearance.BackColor = System.Drawing.Color.FromArgb((CInt(((CByte((201)))))), (CInt(((CByte((0)))))), (CInt(((CByte((119)))))))
+            Me.floatingPictureToolsRibbonPageCategory1.Appearance.Options.UseBackColor = True
+            Me.floatingPictureToolsRibbonPageCategory1.Control = Me.richEditControl1
+            Me.floatingPictureToolsRibbonPageCategory1.Name = "floatingPictureToolsRibbonPageCategory1"
+            Me.floatingPictureToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.floatingPictureToolsFormatPage1})
+            ' 
+            ' floatingPictureToolsFormatPage1
+            ' 
+            Me.floatingPictureToolsFormatPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.floatingPictureToolsShapeStylesPageGroup1, Me.floatingPictureToolsArrangePageGroup1})
+            Me.floatingPictureToolsFormatPage1.Name = "floatingPictureToolsFormatPage1"
+            ' 
+            ' floatingPictureToolsShapeStylesPageGroup1
+            ' 
+            Me.floatingPictureToolsShapeStylesPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
+            Me.floatingPictureToolsShapeStylesPageGroup1.ItemLinks.Add(Me.changeFloatingObjectFillColorItem1)
+            Me.floatingPictureToolsShapeStylesPageGroup1.ItemLinks.Add(Me.changeFloatingObjectOutlineColorItem1)
+            Me.floatingPictureToolsShapeStylesPageGroup1.ItemLinks.Add(Me.changeFloatingObjectOutlineWeightItem1)
+            Me.floatingPictureToolsShapeStylesPageGroup1.Name = "floatingPictureToolsShapeStylesPageGroup1"
+            ' 
+            ' floatingPictureToolsArrangePageGroup1
+            ' 
+            Me.floatingPictureToolsArrangePageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
+            Me.floatingPictureToolsArrangePageGroup1.ItemLinks.Add(Me.changeFloatingObjectTextWrapTypeItem1, "TW")
+            Me.floatingPictureToolsArrangePageGroup1.ItemLinks.Add(Me.changeFloatingObjectAlignmentItem1, "PO")
+            Me.floatingPictureToolsArrangePageGroup1.ItemLinks.Add(Me.floatingObjectBringForwardSubItem1, "AF")
+            Me.floatingPictureToolsArrangePageGroup1.ItemLinks.Add(Me.floatingObjectSendBackwardSubItem1, "AE")
+            Me.floatingPictureToolsArrangePageGroup1.Name = "floatingPictureToolsArrangePageGroup1"
             ' 
             ' tableToolsRibbonPageCategory1
             ' 
@@ -1842,7 +2100,6 @@ Namespace TablesSimpleExample
             ' tableAlignmentRibbonPageGroup1
             ' 
             Me.tableAlignmentRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.tableAlignmentRibbonPageGroup1.ImageOptions.Image = CType((resources.GetObject("tableAlignmentRibbonPageGroup1.ImageOptions.Image")), System.Drawing.Image)
             Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsTopLeftAlignmentItem1, "TL")
             Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsMiddleLeftAlignmentItem1, "CL")
             Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsBottomLeftAlignmentItem1, "BL")
@@ -1852,38 +2109,31 @@ Namespace TablesSimpleExample
             Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsTopRightAlignmentItem1, "TR")
             Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsMiddleRightAlignmentItem1, "CR")
             Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsBottomRightAlignmentItem1, "BR")
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsBottomLeftRotate90AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsBottomCenterRotate90AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsBottomRightRotate90AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsMiddleLeftRotate90AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsMiddleCenterRotate90AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsMiddleRightRotate90AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsTopLeftRotate90AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsTopCenterRotate90AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsTopRightRotate90AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsTopRightRotate270AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsTopCenterRotate270AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsTopLeftRotate270AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsMiddleRightRotate270AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsMiddleCenterRotate270AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsMiddleLeftRotate270AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsBottomRightRotate270AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsBottomCenterRotate270AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsBottomLeftRotate270AlignmentItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.changeTableCellsHorizontalTextDirectionItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.changeTableCellsVerticalTextDirectionItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.changeTableCellsRotateAll90TextDirectionItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.changeTableCellsRotateAll270TextDirectionItem1)
+            Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.changeTableCellsRotateAsian270TextDirectionItem1)
             Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.showTableOptionsFormItem1, "N")
             Me.tableAlignmentRibbonPageGroup1.Name = "tableAlignmentRibbonPageGroup1"
-            ' 
-            ' floatingPictureToolsRibbonPageCategory1
-            ' 
-            Me.floatingPictureToolsRibbonPageCategory1.Appearance.BackColor = System.Drawing.Color.FromArgb((CInt(((CByte((201)))))), (CInt(((CByte((0)))))), (CInt(((CByte((119)))))))
-            Me.floatingPictureToolsRibbonPageCategory1.Appearance.Options.UseBackColor = True
-            Me.floatingPictureToolsRibbonPageCategory1.Control = Me.richEditControl1
-            Me.floatingPictureToolsRibbonPageCategory1.Name = "floatingPictureToolsRibbonPageCategory1"
-            Me.floatingPictureToolsRibbonPageCategory1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.floatingPictureToolsFormatPage1})
-            ' 
-            ' floatingPictureToolsFormatPage1
-            ' 
-            Me.floatingPictureToolsFormatPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.floatingPictureToolsShapeStylesPageGroup1, Me.floatingPictureToolsArrangePageGroup1})
-            Me.floatingPictureToolsFormatPage1.Name = "floatingPictureToolsFormatPage1"
-            ' 
-            ' floatingPictureToolsShapeStylesPageGroup1
-            ' 
-            Me.floatingPictureToolsShapeStylesPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.floatingPictureToolsShapeStylesPageGroup1.ItemLinks.Add(Me.changeFloatingObjectFillColorItem1)
-            Me.floatingPictureToolsShapeStylesPageGroup1.ItemLinks.Add(Me.changeFloatingObjectOutlineColorItem1)
-            Me.floatingPictureToolsShapeStylesPageGroup1.ItemLinks.Add(Me.changeFloatingObjectOutlineWeightItem1)
-            Me.floatingPictureToolsShapeStylesPageGroup1.Name = "floatingPictureToolsShapeStylesPageGroup1"
-            ' 
-            ' floatingPictureToolsArrangePageGroup1
-            ' 
-            Me.floatingPictureToolsArrangePageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.floatingPictureToolsArrangePageGroup1.ItemLinks.Add(Me.changeFloatingObjectTextWrapTypeItem1, "TW")
-            Me.floatingPictureToolsArrangePageGroup1.ItemLinks.Add(Me.changeFloatingObjectAlignmentItem1, "PO")
-            Me.floatingPictureToolsArrangePageGroup1.ItemLinks.Add(Me.floatingObjectBringForwardSubItem1, "AF")
-            Me.floatingPictureToolsArrangePageGroup1.ItemLinks.Add(Me.floatingObjectSendBackwardSubItem1, "AE")
-            Me.floatingPictureToolsArrangePageGroup1.Name = "floatingPictureToolsArrangePageGroup1"
             ' 
             ' fileRibbonPage1
             ' 
@@ -1958,7 +2208,7 @@ Namespace TablesSimpleExample
             ' 
             ' insertRibbonPage1
             ' 
-            Me.insertRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.pagesRibbonPageGroup1, Me.tablesRibbonPageGroup1, Me.illustrationsRibbonPageGroup1, Me.linksRibbonPageGroup1, Me.headerFooterRibbonPageGroup1, Me.textRibbonPageGroup1, Me.symbolsRibbonPageGroup1})
+            Me.insertRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.pagesRibbonPageGroup1, Me.illustrationsRibbonPageGroup1, Me.linksRibbonPageGroup1, Me.headerFooterRibbonPageGroup1, Me.textRibbonPageGroup1, Me.symbolsRibbonPageGroup1})
             Me.insertRibbonPage1.Name = "insertRibbonPage1"
             ' 
             ' pagesRibbonPageGroup1
@@ -1967,13 +2217,6 @@ Namespace TablesSimpleExample
             Me.pagesRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
             Me.pagesRibbonPageGroup1.ItemLinks.Add(Me.insertPageBreakItem21, "B")
             Me.pagesRibbonPageGroup1.Name = "pagesRibbonPageGroup1"
-            ' 
-            ' tablesRibbonPageGroup1
-            ' 
-            Me.tablesRibbonPageGroup1.AllowTextClipping = False
-            Me.tablesRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.tablesRibbonPageGroup1.ItemLinks.Add(Me.insertTableItem1, "T")
-            Me.tablesRibbonPageGroup1.Name = "tablesRibbonPageGroup1"
             ' 
             ' illustrationsRibbonPageGroup1
             ' 
@@ -2012,127 +2255,48 @@ Namespace TablesSimpleExample
             Me.symbolsRibbonPageGroup1.ItemLinks.Add(Me.insertSymbolItem1, "U")
             Me.symbolsRibbonPageGroup1.Name = "symbolsRibbonPageGroup1"
             ' 
-            ' pageLayoutRibbonPage1
+            ' ribbonPage1
             ' 
-            Me.pageLayoutRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.pageSetupRibbonPageGroup1, Me.pageBackgroundRibbonPageGroup1})
-            Me.pageLayoutRibbonPage1.Name = "pageLayoutRibbonPage1"
+            Me.ribbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.ribbonPageGroup1, Me.ribbonPageGroup2, Me.ribbonPageGroup3, Me.ribbonPageGroup4, Me.ribbonPageGroup5})
+            Me.ribbonPage1.Name = "ribbonPage1"
+            Me.ribbonPage1.Text = "Table"
             ' 
-            ' pageSetupRibbonPageGroup1
+            ' ribbonPageGroup1
             ' 
-            Me.pageSetupRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[True]
-            Me.pageSetupRibbonPageGroup1.ItemLinks.Add(Me.changeSectionPageMarginsItem1, "M")
-            Me.pageSetupRibbonPageGroup1.ItemLinks.Add(Me.changeSectionPageOrientationItem1, "O")
-            Me.pageSetupRibbonPageGroup1.ItemLinks.Add(Me.changeSectionPaperKindItem1, "SZ")
-            Me.pageSetupRibbonPageGroup1.ItemLinks.Add(Me.changeSectionColumnsItem1, "J")
-            Me.pageSetupRibbonPageGroup1.ItemLinks.Add(Me.insertBreakItem1, "B")
-            Me.pageSetupRibbonPageGroup1.ItemLinks.Add(Me.changeSectionLineNumberingItem1, "LN")
-            Me.pageSetupRibbonPageGroup1.Name = "pageSetupRibbonPageGroup1"
+            Me.ribbonPageGroup1.ItemLinks.Add(Me.createTableBtn)
+            Me.ribbonPageGroup1.Name = "ribbonPageGroup1"
+            Me.ribbonPageGroup1.Text = "Insert"
             ' 
-            ' pageBackgroundRibbonPageGroup1
+            ' ribbonPageGroup2
             ' 
-            Me.pageBackgroundRibbonPageGroup1.AllowTextClipping = False
-            Me.pageBackgroundRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.pageBackgroundRibbonPageGroup1.ItemLinks.Add(Me.changePageColorItem1, "PC")
-            Me.pageBackgroundRibbonPageGroup1.Name = "pageBackgroundRibbonPageGroup1"
+            Me.ribbonPageGroup2.ItemLinks.Add(Me.mergeBtn)
+            Me.ribbonPageGroup2.ItemLinks.Add(Me.repeatRowsBtn)
+            Me.ribbonPageGroup2.ItemLinks.Add(Me.wrapTextBtn)
+            Me.ribbonPageGroup2.Name = "ribbonPageGroup2"
+            Me.ribbonPageGroup2.Text = "Organize"
             ' 
-            ' referencesRibbonPage1
+            ' ribbonPageGroup3
             ' 
-            Me.referencesRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.tableOfContentsRibbonPageGroup1, Me.captionsRibbonPageGroup1})
-            Me.referencesRibbonPage1.Name = "referencesRibbonPage1"
+            Me.ribbonPageGroup3.ItemLinks.Add(Me.insertContentBtn)
+            Me.ribbonPageGroup3.ItemLinks.Add(Me.formatContentBtn)
+            Me.ribbonPageGroup3.ItemLinks.Add(Me.barButtonItem1)
+            Me.ribbonPageGroup3.Name = "ribbonPageGroup3"
+            Me.ribbonPageGroup3.Text = "Content"
             ' 
-            ' tableOfContentsRibbonPageGroup1
+            ' ribbonPageGroup4
             ' 
-            Me.tableOfContentsRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.tableOfContentsRibbonPageGroup1.ItemLinks.Add(Me.insertTableOfContentsItem1, "T")
-            Me.tableOfContentsRibbonPageGroup1.ItemLinks.Add(Me.updateTableOfContentsItem1, "U")
-            Me.tableOfContentsRibbonPageGroup1.ItemLinks.Add(Me.addParagraphsToTableOfContentItem1, "A")
-            Me.tableOfContentsRibbonPageGroup1.Name = "tableOfContentsRibbonPageGroup1"
+            Me.ribbonPageGroup4.ItemLinks.Add(Me.customizeBtn)
+            Me.ribbonPageGroup4.ItemLinks.Add(Me.tableStyleBtn)
+            Me.ribbonPageGroup4.Name = "ribbonPageGroup4"
+            Me.ribbonPageGroup4.Text = "Appearance"
             ' 
-            ' captionsRibbonPageGroup1
+            ' ribbonPageGroup5
             ' 
-            Me.captionsRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.captionsRibbonPageGroup1.ItemLinks.Add(Me.insertCaptionPlaceholderItem1, "C")
-            Me.captionsRibbonPageGroup1.ItemLinks.Add(Me.insertTableOfFiguresPlaceholderItem1, "G")
-            Me.captionsRibbonPageGroup1.ItemLinks.Add(Me.updateTableOfFiguresItem1, "V")
-            Me.captionsRibbonPageGroup1.Name = "captionsRibbonPageGroup1"
-            ' 
-            ' mailingsRibbonPage1
-            ' 
-            Me.mailingsRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.mailMergeRibbonPageGroup1})
-            Me.mailingsRibbonPage1.Name = "mailingsRibbonPage1"
-            ' 
-            ' mailMergeRibbonPageGroup1
-            ' 
-            Me.mailMergeRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.mailMergeRibbonPageGroup1.ItemLinks.Add(Me.insertMergeFieldItem1)
-            Me.mailMergeRibbonPageGroup1.ItemLinks.Add(Me.showAllFieldCodesItem1)
-            Me.mailMergeRibbonPageGroup1.ItemLinks.Add(Me.showAllFieldResultsItem1)
-            Me.mailMergeRibbonPageGroup1.ItemLinks.Add(Me.toggleViewMergedDataItem1, "P")
-            Me.mailMergeRibbonPageGroup1.Name = "mailMergeRibbonPageGroup1"
-            ' 
-            ' reviewRibbonPage1
-            ' 
-            Me.reviewRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.documentProofingRibbonPageGroup1, Me.documentProtectionRibbonPageGroup1, Me.documentCommentRibbonPageGroup1, Me.documentTrackingRibbonPageGroup1})
-            Me.reviewRibbonPage1.Name = "reviewRibbonPage1"
-            ' 
-            ' documentProofingRibbonPageGroup1
-            ' 
-            Me.documentProofingRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.documentProofingRibbonPageGroup1.ItemLinks.Add(Me.checkSpellingItem1, "S")
-            Me.documentProofingRibbonPageGroup1.ItemLinks.Add(Me.changeLanguageItem1)
-            Me.documentProofingRibbonPageGroup1.Name = "documentProofingRibbonPageGroup1"
-            ' 
-            ' documentProtectionRibbonPageGroup1
-            ' 
-            Me.documentProtectionRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.documentProtectionRibbonPageGroup1.ItemLinks.Add(Me.protectDocumentItem1)
-            Me.documentProtectionRibbonPageGroup1.ItemLinks.Add(Me.changeRangeEditingPermissionsItem1)
-            Me.documentProtectionRibbonPageGroup1.ItemLinks.Add(Me.unprotectDocumentItem1)
-            Me.documentProtectionRibbonPageGroup1.Name = "documentProtectionRibbonPageGroup1"
-            ' 
-            ' documentCommentRibbonPageGroup1
-            ' 
-            Me.documentCommentRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.documentCommentRibbonPageGroup1.ItemLinks.Add(Me.newCommentItem1, "C")
-            Me.documentCommentRibbonPageGroup1.ItemLinks.Add(Me.deleteCommentsItem1, "D")
-            Me.documentCommentRibbonPageGroup1.ItemLinks.Add(Me.previousCommentItem1, "V")
-            Me.documentCommentRibbonPageGroup1.ItemLinks.Add(Me.nextCommentItem1, "N")
-            Me.documentCommentRibbonPageGroup1.Name = "documentCommentRibbonPageGroup1"
-            ' 
-            ' documentTrackingRibbonPageGroup1
-            ' 
-            Me.documentTrackingRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.documentTrackingRibbonPageGroup1.ItemLinks.Add(Me.changeCommentItem1)
-            Me.documentTrackingRibbonPageGroup1.ItemLinks.Add(Me.reviewersItem1)
-            Me.documentTrackingRibbonPageGroup1.ItemLinks.Add(Me.reviewingPaneItem1)
-            Me.documentTrackingRibbonPageGroup1.Name = "documentTrackingRibbonPageGroup1"
-            ' 
-            ' viewRibbonPage1
-            ' 
-            Me.viewRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.documentViewsRibbonPageGroup1, Me.showRibbonPageGroup1, Me.zoomRibbonPageGroup1})
-            Me.viewRibbonPage1.Name = "viewRibbonPage1"
-            ' 
-            ' documentViewsRibbonPageGroup1
-            ' 
-            Me.documentViewsRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.documentViewsRibbonPageGroup1.ItemLinks.Add(Me.switchToSimpleViewItem1, "L")
-            Me.documentViewsRibbonPageGroup1.ItemLinks.Add(Me.switchToDraftViewItem1, "E")
-            Me.documentViewsRibbonPageGroup1.ItemLinks.Add(Me.switchToPrintLayoutViewItem1, "P")
-            Me.documentViewsRibbonPageGroup1.Name = "documentViewsRibbonPageGroup1"
-            ' 
-            ' showRibbonPageGroup1
-            ' 
-            Me.showRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.showRibbonPageGroup1.ItemLinks.Add(Me.toggleShowHorizontalRulerItem1)
-            Me.showRibbonPageGroup1.ItemLinks.Add(Me.toggleShowVerticalRulerItem1)
-            Me.showRibbonPageGroup1.Name = "showRibbonPageGroup1"
-            ' 
-            ' zoomRibbonPageGroup1
-            ' 
-            Me.zoomRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
-            Me.zoomRibbonPageGroup1.ItemLinks.Add(Me.zoomOutItem1)
-            Me.zoomRibbonPageGroup1.ItemLinks.Add(Me.zoomInItem1)
-            Me.zoomRibbonPageGroup1.Name = "zoomRibbonPageGroup1"
+            Me.ribbonPageGroup5.ItemLinks.Add(Me.deleteCellBtn)
+            Me.ribbonPageGroup5.ItemLinks.Add(Me.deleteRowBtn)
+            Me.ribbonPageGroup5.ItemLinks.Add(Me.deleteColumnBtn)
+            Me.ribbonPageGroup5.Name = "ribbonPageGroup5"
+            Me.ribbonPageGroup5.Text = "Remove"
             ' 
             ' richEditBarController1
             ' 
@@ -2373,17 +2537,48 @@ Namespace TablesSimpleExample
             Me.richEditBarController1.BarItems.Add(Me.floatingObjectSendBackwardItem1)
             Me.richEditBarController1.BarItems.Add(Me.floatingObjectSendToBackItem1)
             Me.richEditBarController1.BarItems.Add(Me.floatingObjectSendBehindTextItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsBottomLeftRotate90AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsBottomCenterRotate90AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsBottomRightRotate90AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsMiddleLeftRotate90AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsMiddleCenterRotate90AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsMiddleRightRotate90AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsTopLeftRotate90AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsTopCenterRotate90AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsTopRightRotate90AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsTopRightRotate270AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsTopCenterRotate270AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsTopLeftRotate270AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsMiddleRightRotate270AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsMiddleCenterRotate270AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsMiddleLeftRotate270AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsBottomRightRotate270AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsBottomCenterRotate270AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.toggleTableCellsBottomLeftRotate270AlignmentItem1)
+            Me.richEditBarController1.BarItems.Add(Me.changeTableCellsHorizontalTextDirectionItem1)
+            Me.richEditBarController1.BarItems.Add(Me.changeTableCellsVerticalTextDirectionItem1)
+            Me.richEditBarController1.BarItems.Add(Me.changeTableCellsRotateAll90TextDirectionItem1)
+            Me.richEditBarController1.BarItems.Add(Me.changeTableCellsRotateAll270TextDirectionItem1)
+            Me.richEditBarController1.BarItems.Add(Me.changeTableCellsRotateAsian270TextDirectionItem1)
             Me.richEditBarController1.Control = Me.richEditControl1
+            ' 
+            ' barButtonItem1
+            ' 
+            Me.barButtonItem1.Caption = "Rotate Cell Content"
+            Me.barButtonItem1.Id = 279
+            Me.barButtonItem1.ImageOptions.SvgImage = CType((resources.GetObject("barButtonItem1.ImageOptions.SvgImage")), DevExpress.Utils.Svg.SvgImage)
+            Me.barButtonItem1.Name = "rotateButtonItem1"
+            AddHandler Me.barButtonItem1.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.rotateButtonItem1_ItemClick)
             ' 
             ' Form1
             ' 
             Me.AllowFormGlass = DevExpress.Utils.DefaultBoolean.[False]
-            Me.AutoScaleDimensions = New System.Drawing.SizeF(12F, 25F)
+            Me.AutoScaleDimensions = New System.Drawing.SizeF(7F, 16F)
             Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-            Me.ClientSize = New System.Drawing.Size(2216, 1346)
+            Me.ClientSize = New System.Drawing.Size(1132, 705)
             Me.Controls.Add(Me.richEditControl1)
             Me.Controls.Add(Me.ribbonControl1)
-            Me.Margin = New System.Windows.Forms.Padding(6)
+            Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
             Me.Name = "Form1"
             Me.Ribbon = Me.ribbonControl1
             Me.Text = "Tables Simple Example"
@@ -2913,28 +3108,6 @@ Namespace TablesSimpleExample
 
         Private headerFooterToolsDesignCloseRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.HeaderFooterToolsDesignCloseRibbonPageGroup
 
-        Private tableToolsRibbonPageCategory1 As DevExpress.XtraRichEdit.UI.TableToolsRibbonPageCategory
-
-        Private tableDesignRibbonPage1 As DevExpress.XtraRichEdit.UI.TableDesignRibbonPage
-
-        Private tableStyleOptionsRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableStyleOptionsRibbonPageGroup
-
-        Private tableStylesRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableStylesRibbonPageGroup
-
-        Private tableDrawBordersRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableDrawBordersRibbonPageGroup
-
-        Private tableLayoutRibbonPage1 As DevExpress.XtraRichEdit.UI.TableLayoutRibbonPage
-
-        Private tableTableRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableTableRibbonPageGroup
-
-        Private tableRowsAndColumnsRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableRowsAndColumnsRibbonPageGroup
-
-        Private tableMergeRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableMergeRibbonPageGroup
-
-        Private tableCellSizeRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableCellSizeRibbonPageGroup
-
-        Private tableAlignmentRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableAlignmentRibbonPageGroup
-
         Private floatingPictureToolsRibbonPageCategory1 As DevExpress.XtraRichEdit.UI.FloatingPictureToolsRibbonPageCategory
 
         Private floatingPictureToolsFormatPage1 As DevExpress.XtraRichEdit.UI.FloatingPictureToolsFormatPage
@@ -2965,8 +3138,6 @@ Namespace TablesSimpleExample
 
         Private pagesRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.PagesRibbonPageGroup
 
-        Private tablesRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TablesRibbonPageGroup
-
         Private illustrationsRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.IllustrationsRibbonPageGroup
 
         Private linksRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.LinksRibbonPageGroup
@@ -2977,38 +3148,108 @@ Namespace TablesSimpleExample
 
         Private symbolsRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.SymbolsRibbonPageGroup
 
-        Private pageLayoutRibbonPage1 As DevExpress.XtraRichEdit.UI.PageLayoutRibbonPage
+        Private toggleTableCellsBottomLeftRotate90AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomLeftRotate90AlignmentItem
 
-        Private pageSetupRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.PageSetupRibbonPageGroup
+        Private toggleTableCellsBottomCenterRotate90AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomCenterRotate90AlignmentItem
 
-        Private pageBackgroundRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.PageBackgroundRibbonPageGroup
+        Private toggleTableCellsBottomRightRotate90AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomRightRotate90AlignmentItem
 
-        Private referencesRibbonPage1 As DevExpress.XtraRichEdit.UI.ReferencesRibbonPage
+        Private toggleTableCellsMiddleLeftRotate90AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleLeftRotate90AlignmentItem
 
-        Private tableOfContentsRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableOfContentsRibbonPageGroup
+        Private toggleTableCellsMiddleCenterRotate90AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleCenterRotate90AlignmentItem
 
-        Private captionsRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.CaptionsRibbonPageGroup
+        Private toggleTableCellsMiddleRightRotate90AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleRightRotate90AlignmentItem
 
-        Private mailingsRibbonPage1 As DevExpress.XtraRichEdit.UI.MailingsRibbonPage
+        Private toggleTableCellsTopLeftRotate90AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsTopLeftRotate90AlignmentItem
 
-        Private mailMergeRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.MailMergeRibbonPageGroup
+        Private toggleTableCellsTopCenterRotate90AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsTopCenterRotate90AlignmentItem
 
-        Private reviewRibbonPage1 As DevExpress.XtraRichEdit.UI.ReviewRibbonPage
+        Private toggleTableCellsTopRightRotate90AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsTopRightRotate90AlignmentItem
 
-        Private documentProofingRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.DocumentProofingRibbonPageGroup
+        Private toggleTableCellsTopRightRotate270AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsTopRightRotate270AlignmentItem
 
-        Private documentProtectionRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.DocumentProtectionRibbonPageGroup
+        Private toggleTableCellsTopCenterRotate270AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsTopCenterRotate270AlignmentItem
 
-        Private documentCommentRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.DocumentCommentRibbonPageGroup
+        Private toggleTableCellsTopLeftRotate270AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsTopLeftRotate270AlignmentItem
 
-        Private documentTrackingRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.DocumentTrackingRibbonPageGroup
+        Private toggleTableCellsMiddleRightRotate270AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleRightRotate270AlignmentItem
 
-        Private viewRibbonPage1 As DevExpress.XtraRichEdit.UI.ViewRibbonPage
+        Private toggleTableCellsMiddleCenterRotate270AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleCenterRotate270AlignmentItem
 
-        Private documentViewsRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.DocumentViewsRibbonPageGroup
+        Private toggleTableCellsMiddleLeftRotate270AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsMiddleLeftRotate270AlignmentItem
 
-        Private showRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.ShowRibbonPageGroup
+        Private toggleTableCellsBottomRightRotate270AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomRightRotate270AlignmentItem
 
-        Private zoomRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.ZoomRibbonPageGroup
+        Private toggleTableCellsBottomCenterRotate270AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomCenterRotate270AlignmentItem
+
+        Private toggleTableCellsBottomLeftRotate270AlignmentItem1 As DevExpress.XtraRichEdit.UI.ToggleTableCellsBottomLeftRotate270AlignmentItem
+
+        Private changeTableCellsHorizontalTextDirectionItem1 As DevExpress.XtraRichEdit.UI.ChangeTableCellsHorizontalTextDirectionItem
+
+        Private changeTableCellsVerticalTextDirectionItem1 As DevExpress.XtraRichEdit.UI.ChangeTableCellsVerticalTextDirectionItem
+
+        Private changeTableCellsRotateAll90TextDirectionItem1 As DevExpress.XtraRichEdit.UI.ChangeTableCellsRotateAll90TextDirectionItem
+
+        Private changeTableCellsRotateAll270TextDirectionItem1 As DevExpress.XtraRichEdit.UI.ChangeTableCellsRotateAll270TextDirectionItem
+
+        Private changeTableCellsRotateAsian270TextDirectionItem1 As DevExpress.XtraRichEdit.UI.ChangeTableCellsRotateAsian270TextDirectionItem
+
+        Private tableToolsRibbonPageCategory1 As DevExpress.XtraRichEdit.UI.TableToolsRibbonPageCategory
+
+        Private tableDesignRibbonPage1 As DevExpress.XtraRichEdit.UI.TableDesignRibbonPage
+
+        Private tableStyleOptionsRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableStyleOptionsRibbonPageGroup
+
+        Private tableStylesRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableStylesRibbonPageGroup
+
+        Private tableDrawBordersRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableDrawBordersRibbonPageGroup
+
+        Private tableLayoutRibbonPage1 As DevExpress.XtraRichEdit.UI.TableLayoutRibbonPage
+
+        Private tableTableRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableTableRibbonPageGroup
+
+        Private tableRowsAndColumnsRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableRowsAndColumnsRibbonPageGroup
+
+        Private tableMergeRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableMergeRibbonPageGroup
+
+        Private tableCellSizeRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableCellSizeRibbonPageGroup
+
+        Private tableAlignmentRibbonPageGroup1 As DevExpress.XtraRichEdit.UI.TableAlignmentRibbonPageGroup
+
+        Private ribbonPage1 As DevExpress.XtraBars.Ribbon.RibbonPage
+
+        Private ribbonPageGroup1 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+
+        Private createTableBtn As DevExpress.XtraBars.BarButtonItem
+
+        Private mergeBtn As DevExpress.XtraBars.BarButtonItem
+
+        Private ribbonPageGroup2 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+
+        Private repeatRowsBtn As DevExpress.XtraBars.BarButtonItem
+
+        Private wrapTextBtn As DevExpress.XtraBars.BarButtonItem
+
+        Private insertContentBtn As DevExpress.XtraBars.BarButtonItem
+
+        Private ribbonPageGroup3 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+
+        Private formatContentBtn As DevExpress.XtraBars.BarButtonItem
+
+        Private customizeBtn As DevExpress.XtraBars.BarButtonItem
+
+        Private ribbonPageGroup4 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+
+        Private tableStyleBtn As DevExpress.XtraBars.BarButtonItem
+
+        Private deleteCellBtn As DevExpress.XtraBars.BarButtonItem
+
+        Private ribbonPageGroup5 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+
+        Private deleteRowBtn As DevExpress.XtraBars.BarButtonItem
+
+        Private deleteColumnBtn As DevExpress.XtraBars.BarButtonItem
+
+        Private barButtonItem1 As DevExpress.XtraBars.BarButtonItem
     End Class
 End Namespace
