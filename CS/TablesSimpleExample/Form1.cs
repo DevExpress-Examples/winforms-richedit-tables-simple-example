@@ -177,10 +177,10 @@ namespace TablesSimpleExample
                 for (int j = 0; j < table.Rows[i].Cells.Count; j++)
                 {
                     // Specify the border style and the background color for the header cells 
-                    table[i, j].Borders.Bottom.LineStyle = TableBorderLineStyle.None;
-                    table[i, j].Borders.Left.LineStyle = TableBorderLineStyle.None;
-                    table[i, j].Borders.Right.LineStyle = TableBorderLineStyle.None;
-                    table[i, j].Borders.Top.LineStyle = TableBorderLineStyle.None;
+                    table[i, j].Borders.Bottom.LineStyle = BorderLineStyle.None;
+                    table[i, j].Borders.Left.LineStyle = BorderLineStyle.None;
+                    table[i, j].Borders.Right.LineStyle = BorderLineStyle.None;
+                    table[i, j].Borders.Top.LineStyle = BorderLineStyle.None;
                     table[i, j].BackgroundColor = Color.Transparent;
                 }
             }
