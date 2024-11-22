@@ -143,10 +143,10 @@ Namespace TablesSimpleExample
             Dim tStyleMain As TableStyle = document.TableStyles.CreateNew()
             'Specify style options
             Dim insideHorizontalBorder As TableBorder = tStyleMain.TableBorders.InsideHorizontalBorder
-            insideHorizontalBorder.LineStyle = TableBorderLineStyle.Single
+            insideHorizontalBorder.LineStyle = BorderLineStyle.Single
             insideHorizontalBorder.LineColor = Color.White
             Dim insideVerticalBorder As TableBorder = tStyleMain.TableBorders.InsideVerticalBorder
-            insideVerticalBorder.LineStyle = TableBorderLineStyle.Single
+            insideVerticalBorder.LineStyle = BorderLineStyle.Single
             insideVerticalBorder.LineColor = Color.White
             tStyleMain.CellBackgroundColor = Color.FromArgb(227, 238, 220)
             tStyleMain.Name = "MyTableStyle"
@@ -190,10 +190,10 @@ Namespace TablesSimpleExample
 #Region "#CustomizeTable"
         Public Shared Sub ChangeCellBorderColor(ByVal cell As TableCell)
             'Specify the border style and the background color for the header cells 
-            cell.Borders.Bottom.LineStyle = TableBorderLineStyle.None
-            cell.Borders.Left.LineStyle = TableBorderLineStyle.None
-            cell.Borders.Right.LineStyle = TableBorderLineStyle.None
-            cell.Borders.Top.LineStyle = TableBorderLineStyle.None
+            cell.Borders.Bottom.LineStyle = BorderLineStyle.None
+            cell.Borders.Left.LineStyle = BorderLineStyle.None
+            cell.Borders.Right.LineStyle = BorderLineStyle.None
+            cell.Borders.Top.LineStyle = BorderLineStyle.None
             cell.BackgroundColor = Color.Transparent
         End Sub
 
