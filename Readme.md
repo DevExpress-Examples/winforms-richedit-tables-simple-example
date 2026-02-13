@@ -18,7 +18,7 @@ The following example demonstrates how to use the Table API subset of the [RichE
 
 * [Tables in Rich Text Documents](https://docs.devexpress.com/WindowsForms/8306/controls-and-libraries/rich-text-editor/rich-edit-control-document/tables)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-richedit-tables-simple-example&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-richedit-tables-simple-example&~~~was_helpful=no)
 
